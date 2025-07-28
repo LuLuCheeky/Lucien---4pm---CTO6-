@@ -50,7 +50,7 @@ function draw() {
     let rowY = startY + (row * circleDiameter);
 
     for (let i = 0; i <numCircles; i++) {
-      let 
+      let rowY =
     }
 
   }
