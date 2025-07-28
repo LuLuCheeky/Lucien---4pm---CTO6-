@@ -21,9 +21,10 @@ function draw() {
   //       rect(spacing + i*spacing,400, 40, 40);
   //       //colorValue +=1; 
   // }
-  fill(255);
-  rect(0 , 50, width, height - 100);
-  fill(255);
-  circle(width / 2, height / 2, 100);
+  // fill(255);
+  // rect(0 , 50, width, height - 100);
+  // fill(255);
+  // circle(width / 2, height / 2, 100);
+  
   
 }
