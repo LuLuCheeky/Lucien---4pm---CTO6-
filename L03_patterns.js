@@ -12,7 +12,7 @@ function draw() {
       fill (0);
     }
     if (i % 2 === 1) {
-      
+      fill(255);
     }
   }
 }
