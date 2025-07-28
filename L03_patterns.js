@@ -20,6 +20,8 @@ function draw() {
   //       circle(spacing + i*spacing, 200, 40); 
   //       rect(spacing + i*spacing,400, 40, 40);
   //       //colorValue +=1; 
+  // }
 
+  
   
 }
