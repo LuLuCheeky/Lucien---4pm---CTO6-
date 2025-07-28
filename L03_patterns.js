@@ -25,12 +25,12 @@ function draw() {
   // rect(0 , 50, width, height - 100);
   // fill(255);
   // circle(width / 2, height / 2, 100);
-  let circlediameter = 50;
+  let circleDiameter = 50;
   let numCircles = 5;
-  let totalWidth = numCircles * circlediameter
+  let totalWidth = numCircles * circleDiameter
   let startX = (width - totalWidth) / 2;
   for (let i = 0; i < numCircles; i++) {
-    circle(startX + i * circlediameter, height / 2, circlediameter);
+    circle(startX + i * circleDiameter, height / 2, circlediameter);
   }
   
 }
