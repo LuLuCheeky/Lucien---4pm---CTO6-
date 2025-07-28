@@ -23,6 +23,7 @@ function draw() {
   // }
 
   rect(0, 0 , width/2, height);
+  
   rect(width / 2, 0, width / 2, height);
   circle(width / 2, height / 2, 100);
   
