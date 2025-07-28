@@ -41,7 +41,7 @@ function draw() {
   //   circle(startX + i * circleDiameter, circleDiameter/2, circleDiameter);
   // }
 
-  
+  let circleDiameter = 50;
   
 }
 
