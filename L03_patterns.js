@@ -4,7 +4,7 @@ function setup() {
     noLoop(); // Stops continuous drawing
   }
 function draw() {
-  
+  let spacing = 50;
   for (let i = 0; i < 5; i++) {
     fill(150 + i * 15, 150 + i * 15, 150 + i * 25);
     circle(50 + i * 50, 100, 40)
