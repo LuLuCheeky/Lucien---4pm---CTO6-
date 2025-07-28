@@ -35,10 +35,11 @@ function draw() {
 
   let circleDiameter = 50;
   let numCircles = 5;
-  let totalWidth = numCircles * circleDiameter
+  let totalWidth = numCircles * circleDiameter;
   let startX = 0 + circleDiameter/2; 
   for (let i = 0; i < numCircles; i++) {
     circle(startX + i * circleDiameter, circleDiameter/2, circleDiameter);
   }
   
 }
+
