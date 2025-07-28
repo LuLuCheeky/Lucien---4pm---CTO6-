@@ -22,6 +22,6 @@ function draw() {
   //       //colorValue +=1; 
   // }
 
-  
+  rect(0, 50)
   
 }
