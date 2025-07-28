@@ -6,6 +6,6 @@ function setup() {
   
 function draw() {
   for (let i = 1; i < 11; i++) {
-    circle
+    circle()
   }
 }
