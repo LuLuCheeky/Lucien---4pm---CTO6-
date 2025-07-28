@@ -4,7 +4,7 @@ let spacing = 50;
 function setup() {
     createCanvas(600, 400);
     background(220);
-    noLoop(); // Stops continuous drawing
+    //noLoop(); // Stops continuous drawing
   }
 function draw() {
   for (let i = 0; i < 5; i++) {
