@@ -51,7 +51,7 @@ function draw() {
 
     for (let i = 0; i <numCircles; i++) {
       let rowY = startY + (row * circleDiameter);
-      
+      ellipse(x)
     }
 
   }
