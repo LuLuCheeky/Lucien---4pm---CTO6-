@@ -22,7 +22,8 @@ function draw() {
   //       //colorValue +=1; 
   // }
 
-  rect(0, 0 , width, height);
+  rect(0, 0 , width/2, height);
+  
   circle(width / 2, height / 2, 100);
   
 }
