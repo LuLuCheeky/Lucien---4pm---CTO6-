@@ -48,6 +48,7 @@ function draw() {
   let startY = (height - totalWidth) / 2 + circleDiameter / 2;
   for (let row = 0; row <numCircles; row++) {
     let rowY
+    
   }
   
 }
