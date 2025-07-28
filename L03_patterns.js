@@ -8,14 +8,6 @@ function setup() {
   }
 
 function draw() {
-  // for (let i = 0; 1 < 8; i++){
-  //   if (i % 2 === 0) {
-  //     fill (0);
-  //   } else {
-  //     fill (255);
-  //   }
-  //   circle (spacing + i * spacing, 200, 40);
-  // }
 
   for (let i = 0; i<5; i++) {
         // fill(i*spacing);
