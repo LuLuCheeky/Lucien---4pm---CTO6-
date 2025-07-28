@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   for (let i = 0; 1 < 8; i++){
     if (i % 2 === 0) {
-      
+      fill (0 )
     }
   }
 }
