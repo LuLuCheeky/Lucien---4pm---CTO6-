@@ -13,6 +13,6 @@ function draw() {
     } else {
       fill (255);
     }
-    circle (50 + i * spacing, 200, 40);
+    circle (spacing + i * spacing, 200, 40);
   }
 }
