@@ -25,6 +25,7 @@ function draw() {
   // rect(0 , 50, width, height - 100);
   // fill(255);
   // circle(width / 2, height / 2, 100);
-  let circlediameter = 40;
+  let circlediameter = 30;
+  
   
 }
