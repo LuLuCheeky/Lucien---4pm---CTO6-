@@ -11,7 +11,7 @@ function draw() {
     if (i % 2 === 0) {
       fill (0);
     } else {
-      
+      fill (255);
     }
     circle (50 + i * spacing, 200, 40);
   }
