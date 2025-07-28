@@ -22,7 +22,7 @@ function draw() {
   //       //colorValue +=1; 
   // }
   fill(0);
-  rect(width , 0, width , height);
+  rect(0 , 50, );
   fill(255);
   circle(width / 2, height / 2, 100);
   
