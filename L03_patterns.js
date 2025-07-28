@@ -7,9 +7,5 @@ function setup() {
     //noLoop(); // Stops continuous drawing
   }
 function draw() {
-  for (let i = 0; i < 5; i++) {
-    fill(colourvalue%255);
-    circle(spacing + i * spacing, 100, 40)
-    colourvalue += 1;
-  }
+  for (let i = 0; 1 < 8; i++)
 }
