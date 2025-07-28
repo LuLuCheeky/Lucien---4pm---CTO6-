@@ -27,6 +27,6 @@ function draw() {
   // circle(width / 2, height / 2, 100);
   let circlediameter = 30;
   let numCircles = 5;
-  let totalWidth = numCircles
+  let totalWidth = numCircles * cir
   
 }
