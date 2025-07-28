@@ -29,6 +29,13 @@ function draw() {
   let numCircles = 5;
   let totalWidth = numCircles * circlediameter
   let startX = (width - totalWidth) / 2;
-  
+  for (let i = 0; i < numCircles; i++) {
+    if (i % 2 === 0) {
+      fill(0);
+    } else {
+      fill(255);
+    }
+    circle(startX + i * circlediameter, height / 2, circlediameter);
+  }
   
 }
