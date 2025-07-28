@@ -49,6 +49,10 @@ function draw() {
   for (let row = 0; row <numCircles; row++) {
     let rowY = startY + (row * circleDiameter);
 
+    for (let i = 0; i <numCircles; i++) {
+      let 
+    }
+
   }
   
 }
