@@ -23,6 +23,6 @@ function draw() {
   // }
 
   rect(0, 50, width, 50);
-  circle()
+  circle(width / 2, height / 2, 100);
   
 }
