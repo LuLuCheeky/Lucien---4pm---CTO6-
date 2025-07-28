@@ -43,6 +43,8 @@ function draw() {
 
   let circleDiameter = 50;
   let numCircles = 5;
+  let totalWidth = numCircles * circleDiameter;
+  
   
 }
 
