@@ -33,29 +33,29 @@ function draw() {
   //   circle(startX + i * circleDiameter, height / 2, circleDiameter);
   // }
 
-  let circleDiameter = 50;
-  let numCircles = 5;
-  let totalWidth = numCircles * circleDiameter;
-  let startX = circleDiameter/2; 
-  for (let i = 0; i < numCircles; i++) {
-    
-    circle(startX + i * circleDiameter, circleDiameter/2, circleDiameter);
-  }
-
   // let circleDiameter = 50;
   // let numCircles = 5;
   // let totalWidth = numCircles * circleDiameter;
-  // let startX = (width - totalWidth) / 2 + circleDiameter / 2;
-  // let startY = (height - totalWidth) / 2 + circleDiameter / 2;
-  // for (let row = 0; row <numCircles; row++) {
-  //   let rowY = startY + (row * circleDiameter);
-
-  //   for (let i = 0; i <numCircles; i++) {
-  //     let x = startX + (circleDiameter * row);
-  //     ellipse(x, rowY, circleDiameter , circleDiameter);
-  //   }
-
+  // let startX = circleDiameter/2; 
+  // for (let i = 0; i < numCircles; i++) {
+    
+  //   circle(startX + i * circleDiameter, circleDiameter/2, circleDiameter);
   // }
+
+  let circleDiameter = 50;
+  let numCircles = 5;
+  let totalWidth = numCircles * circleDiameter;
+  let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+  let startY = (height - totalWidth) / 2 + circleDiameter / 2;
+  for (let row = 0; row <numCircles; row++) {
+    let rowY = startY + (row * circleDiameter);
+
+    for (let i = 0; i <numCircles; i++) {
+      let x = startX + (circleDiameter * row);
+      ellipse(x, rowY, circleDiameter , circleDiameter);
+    }
+
+  }
   
 }
 
