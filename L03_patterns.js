@@ -50,7 +50,7 @@ function draw() {
   for (let j = 0; j < numCircles; j++) {
     let Y = startY + (j * circleDiameter);
 
-    for (let i = 0; i <numCircles; i++) {
+    for (let i = 0; i < 5; i++) {
       let x = startX + (circleDiameter * row);
       ellipse(x, rowY, circleDiameter , circleDiameter);
     }
