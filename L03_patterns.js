@@ -10,17 +10,17 @@ function setup() {
 function draw() {
 
   // for (let i = 0; i<5; i++) {
-  //       // fill(i*spacing);
-  //       //fill(colorValue%255);
-  //       if(i%2 === 0) {
-  //           fill(0);
-  //       } else {
-  //           fill(255);
-  //       }
-  //       circle(spacing + i*spacing, 200, 40); 
-  //       rect(spacing + i*spacing,400, 40, 40);
-  //       //colorValue +=1; 
-  // }
+    //       // fill(i*spacing);
+      //       //fill(colorValue%255);
+        //       if(i%2 === 0) {
+          //           fill(0);
+            //       } else {
+              //           fill(255);
+                //       }
+                  //       circle(spacing + i*spacing, 200, 40); 
+                    //       rect(spacing + i*spacing,400, 40, 40);
+                      //       //colorValue +=1; 
+                        // }
   // fill(255);
   // rect(0 , 50, width, height - 100);
   // fill(255);
