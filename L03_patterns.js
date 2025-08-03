@@ -51,7 +51,7 @@ function draw() {
     let Y = startY + (j * circleDiameter);
 
     for (let i = 0; i < 5; i++) {
-      fill(0,)
+      fill(0, i * 50, 0)
       ellipse(x, rowY, circleDiameter , circleDiameter);
     }
 
