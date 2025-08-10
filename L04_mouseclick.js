@@ -18,6 +18,6 @@ function mouseReleased() {
     shapeColour = color(random(255), random(255), random(255));
 }
 
-function mouseMoved() {
+function mouseDragged() {
     circle(mouseX, mouseY, 100);
 }
