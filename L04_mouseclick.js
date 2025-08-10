@@ -8,5 +8,6 @@ function setup() {
 
 function draw() {
     fill(shapeColour);
-    circle(mouseX, mouseY, 50);
+    circle(mouseX, mouseY, 100);
 }
+
