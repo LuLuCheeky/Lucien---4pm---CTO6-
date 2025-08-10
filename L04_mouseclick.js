@@ -7,4 +7,6 @@ function setup() {
 }
 
 function draw() {
+    fill(shapeColour);
+    circle(mouseX, mouseY, 50);
 }
