@@ -72,5 +72,20 @@ function draw() {
 
 //   }
   
+  let circleDiameter = 30;
+  let numCircles = 5;
+  let totalWidth = numCircles * circleDiameter;
+  let startX = circleDiameter / 2;
+  let startY = circleDiameter / 2;
+  for (let j = 0; j < numCircles; j++) {
+    let Y = startY + circleDiameter * j;
+
+    for (let i = 0; i < 5; i++) {
+      fill(0, i * 50, 0)
+      ellipse(startX + i * circleDiameter , Y, circleDiameter);
+    }
+
+  }
+  
 }
 
