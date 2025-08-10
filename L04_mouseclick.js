@@ -15,4 +15,6 @@ function mousePressed() {
    shapeColour = 'red'
 }
 
-function mouseReleased() 
+function mouseReleased() {
+    shapeColour = 'blue';
+}
