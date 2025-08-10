@@ -77,15 +77,11 @@ function draw() {
   let totalWidth = numCircles * circleDiameter;
   let startX = circleDiameter / 2;
   let startY = circleDiameter / 2;
-  for (let j = 0; j < numCircles; j++) {
-    let Y = startY + circleDiameter * j;
-
-    for (let i = 0; i < 5; i++) {
-      fill(0, i * 50, 0)
-      ellipse(startX + i * circleDiameter , Y, circleDiameter);
+  for (let i = 0; i < numCircles; i++) {
+    fill(0, i * 50, 0);
+    circle(startX + i * circleDiameter, startY + circleDiameter * j, circleDiameter);
     }
 
-  }
-  
 }
+
 
