@@ -48,7 +48,7 @@ function draw() {
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
   let startY = (height - totalWidth) / 2 + circleDiameter / 2;
   for (let j = 0; j < numCircles; j++) {
-    let Y = startY + (j * circleDiameter);
+    let Y = height;
 
     for (let i = 0; i < 5; i++) {
       fill(0, i * 50, 0)
