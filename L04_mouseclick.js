@@ -16,5 +16,5 @@ function mouseReleased() {
 }
 
 function mouseDragged() {
-    circle(mouseX, mouseY, random());
+    circle(mouseX, mouseY, random(1, 100));
 }
