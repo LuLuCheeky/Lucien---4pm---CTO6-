@@ -8,7 +8,7 @@ function setup() {
 
 
 function mouseDragged() {
-    mx = ra
+    mx = random()
     shapeColour = color(random(255), random(255), random(255));
     fill(shapeColour);
     circle(mouseX, mouseY, random(1, 50));
