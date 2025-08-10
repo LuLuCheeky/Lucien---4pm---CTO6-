@@ -79,7 +79,7 @@ function draw() {
   let startY = circleDiameter / 2;
   for (let i = 0; i < numCircles; i++) {
     fill(0, i * 50, 0);
-    circle(startX + i * circleDiameter, startY + circleDiameter * j, circleDiameter);
+    circle(startX + i * circleDiameter, startY + circleDiameter * i, circleDiameter);
     }
 
 }
