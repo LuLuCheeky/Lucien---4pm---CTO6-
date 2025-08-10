@@ -7,17 +7,7 @@ function setup() {
 }
 
 
-
-function mousePressed() {
-   shapeColour = color(random(255), random(255), random(255));
-   fill(shapeColour);
-}
-
-function mouseReleased() {
-    shapeColour = color(random(255), random(255), random(255));
-    fill(shapeColour);
-}
-
 function mouseDragged() {
+    fill(shapeColour);
     circle(mouseX, mouseY, random(1, 100));
 }
