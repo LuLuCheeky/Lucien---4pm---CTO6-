@@ -11,3 +11,6 @@ function draw() {
     circle(mouseX, mouseY, 100);
 }
 
+function mousePressed() {
+    shapeColour = color(random(255), random(255), random(255));
+}
