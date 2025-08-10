@@ -60,7 +60,7 @@ function draw() {
   let circleDiameter = 30;
   let numCircles = 5;
   let totalWidth = numCircles * circleDiameter;
-  let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+  let startX = circleDiameter;
   let startY = (height - totalWidth) / 2 + circleDiameter / 2;
   for (let j = 0; j < numCircles; j++) {
     let Y = startY + circleDiameter * j;
