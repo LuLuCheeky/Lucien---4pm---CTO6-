@@ -12,9 +12,9 @@ function draw() {
 }
 
 function mousePressed() {
-   shapeColour = 'red'
+   shapeColour = color(random)
 }
 
 function mouseReleased() {
-    shapeColour = color;
+    shapeColour = color(random(255), random(255), random(255));
 }
