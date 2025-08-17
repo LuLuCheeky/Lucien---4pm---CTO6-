@@ -49,6 +49,7 @@ function keyPressed() {
         shapeColour = "deepSkyBlue";
     }else if (keyCode === 83) {
         shapeColour = "dimGray";
+    }else if (keyCode === 68) {
     }
     
 }
