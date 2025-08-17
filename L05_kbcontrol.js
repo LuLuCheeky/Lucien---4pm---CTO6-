@@ -18,12 +18,8 @@ function setup(){
 //     CircleSize += 0.5;
 // }
 function draw() {
-    let colour = color(random(255), random(255), random(255));
     background(220);
-    if (showCircle) {
-        circle(width / 2, height  / 2, 200);
-        fill(colour);
-    }
+    circle
 }
 
 function keyPressed() {
