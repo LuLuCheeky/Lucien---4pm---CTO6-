@@ -38,4 +38,4 @@ let b = "5"
 let c = 7
 
 console.log(a == b);
-console.log("If you look at this, ");
+console.log("If you look at this, youre GAY");
