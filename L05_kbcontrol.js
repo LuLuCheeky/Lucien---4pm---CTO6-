@@ -6,3 +6,7 @@ function setup(){
     background(220);
     noStroke();
 }
+
+function mousePressed(){
+    
+}
