@@ -24,7 +24,7 @@ function draw() {
 }
 
 function keyPressed() {
-    console.log( key,keyCode);
+    console.log(key ,keyCode);
     if (keyCode === UP_ARROW) {
         shapeColour = 'dodgerblue';
     }else if (keyCode === DOWN_ARROW) {
