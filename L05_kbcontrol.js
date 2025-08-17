@@ -17,7 +17,12 @@ function setup(){
 //     circle(mouseX, mouseY, CircleSize);
 //     CircleSize += 0.5;
 // }
-
+function draw() {
+    if (showCircle) {
+        fill(shapeColour);
+        circle(mouseX, mouseY, CircleSize);
+    }
+}
 
 function keyPressed() {
     if(key === 'c' || key === 'C') {
