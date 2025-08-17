@@ -1,4 +1,4 @@
-let showCircle = false;
+
 
 function setup(){
     createCanvas(400, 400);
@@ -20,7 +20,7 @@ function setup(){
 function draw() {
     background(220);
     circle(width / 2, height / 2, 100);
-    fill()
+    fill(shapeColour);
 }
 
 function keyPressed() {
