@@ -24,5 +24,5 @@ function draw() {
     let topX = centerX - RectSize / 2;
     let topY = centerY - RectSize / 2;
 
-    RectSize
+    RectSize(topleftX)
 }
