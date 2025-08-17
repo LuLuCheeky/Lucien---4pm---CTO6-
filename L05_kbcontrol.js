@@ -51,6 +51,8 @@ function keyPressed() {
         shapeColour = "dimGray";
     }else if (keyCode === 68) {
         shapeColour = "dodgerBlue";
+    }else if (keyCode === 70) {
+        
     }
     
 }
