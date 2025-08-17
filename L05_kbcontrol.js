@@ -21,6 +21,9 @@ function keyPressed() {
     for (let i = 0; i < count; i++) {
         let x = random(width);
         let y = random(height);
+        let shapeColour = color(random(255), random(255), random(255));
+        fill(shapeColour);
+        noStroke();
         
     }
 }
