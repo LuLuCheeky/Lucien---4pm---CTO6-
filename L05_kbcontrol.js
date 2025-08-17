@@ -28,7 +28,7 @@ function draw() {
 
 function keyPressed() {
     console.log("key", key)
-    console.log("keycode")
+    console.log("keycode", keycode)
 }
 
 
