@@ -1,5 +1,4 @@
-let shapeColour = 'blue';
-let CircleSize = 5;
+let RectSize = 5;
 
 function setup(){
     createCanvas(400, 400);
