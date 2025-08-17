@@ -1,5 +1,5 @@
 
-
+let shapeColour ='white';
 function setup(){
     createCanvas(400, 400);
     background(220);
@@ -25,9 +25,9 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === UP_ARROW) {
-        let shapeColour = 'red';
+         shapeColour = 'red';
     }else if (keyCode === DOWN_ARROW) {
-        let shapeColour = 'black';
+         shapeColour = 'black';
     }
     
 }
