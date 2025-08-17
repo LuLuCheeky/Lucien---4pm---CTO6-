@@ -27,7 +27,7 @@ function draw() {
 }
 
 function keyPressed() {
-    RectSize = 100;
+    
 }
 
 function keyReleased() {
