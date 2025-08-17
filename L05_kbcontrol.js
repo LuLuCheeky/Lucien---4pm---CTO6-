@@ -146,7 +146,7 @@ function keyPressed() {
     }else if (keyCode === 85) {
         shapeColour = "lavenderBlush";
     }else if (keyCode === 90) {
-        shapeColour = "lightCyan";
+        shapeColour = "lightGreen";
     }
     
 }
