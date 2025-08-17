@@ -3,7 +3,7 @@ let showCircle = false;
 function setup(){
     createCanvas(400, 400);
     background(220);
-    stroke(0);
+    noStroke();
     fill(255);
 }
 
