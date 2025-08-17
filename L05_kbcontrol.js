@@ -7,7 +7,7 @@ function setup(){
 }
 
 function mousePressed(){
-    CircleSize = random(10, 100);
+    CircleSize = random(10, 1000000000000);
     shapeColour = color(random(255), random(255), random(255));
     fill(shapeColour);
     circle(mouseX, mouseY, CircleSize);
