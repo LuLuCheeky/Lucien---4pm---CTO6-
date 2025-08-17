@@ -24,7 +24,7 @@ function keyPressed() {
         let shapeColour = color(random(255), random(255), random(255));
         fill(shapeColour);
         noStroke();
-        
+        circle(x, y, )
     }
 }
 
