@@ -63,7 +63,10 @@ function keyPressed() {
         shapeColour = "lightBlue";
     }else if (keyCode === 76) {
         shapeColour = "lightCoral";
-            }
+    }else if (keyCode === 186) {
+        shapeColour = "lightGoldenRodYellow";
+        
+    }
     
 }
 
