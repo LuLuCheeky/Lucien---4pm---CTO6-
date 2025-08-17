@@ -1,3 +1,4 @@
+let shapeColour = 'blue';
 let CircleSize = 50;
 
 function setup(){
