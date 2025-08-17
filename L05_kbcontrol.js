@@ -17,8 +17,8 @@ function setup(){
 //     CircleSize += 0.5;
 // }
 function keyPressed() {
-    if(key === 'c') {
-        show
+    if(key === 'c' || key === 'C') {
+        showCircle
     }
 }
 
