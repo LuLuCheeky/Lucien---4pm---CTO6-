@@ -75,6 +75,17 @@ function keyPressed() {
         shapeColour = "lightSeaGreen";
     }else if (keyCode === 219) {
         shapeColour = "lightSkyBlue";
+    }else if (keyCode === 221) {
+        shapeColour = "lightSteelBlue";
+    }else if (keyCode === 220) {
+        shapeColour = "lightYellow";
+    }else if (keyCode === 32) {
+        shapeColour = 'white';
+    }else if (keyCode === 27) {
+        shapeColour = 'black';
+    }else if (keyCode === 48) {
+        shapeColour = 'red';
+    }else if (keyCode === 49) {
         
     }
     
