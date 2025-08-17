@@ -25,7 +25,7 @@ function keyPressed() {
         let size = random(10, 80);
         noStroke();
         circle(x, y, )
-        fill
+        fill(shapeColour);
     }
 }
 
