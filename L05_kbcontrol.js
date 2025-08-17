@@ -37,6 +37,7 @@ function keyPressed() {
         shapeColour = 'cornflowerBlue';
     }else if (keyCode === 89) {
         shapeColour = 'darkGoldenRod';
+    }else if (keyCode === 85) {
     }
     
 }
