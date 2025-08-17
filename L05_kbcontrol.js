@@ -25,7 +25,7 @@ function draw() {
 }
 
 function keyPressed() {
-    if(key === 'c' || key === 'C') {
+    if(key === "c" || key === "C") {
         showCircle = !showCircle;
     }
 }
