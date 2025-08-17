@@ -16,9 +16,11 @@ function setup(){
 //     circle(mouseX, mouseY, CircleSize);
 //     CircleSize += 0.5;
 // }
+
+
 function keyPressed() {
     if(key === 'c' || key === 'C') {
-        showCircle
+        showCircle = !showCircle;
     }
 }
 
