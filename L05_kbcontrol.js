@@ -56,7 +56,7 @@ function keyPressed() {
     }else if (keyCode === 71) {
         shapeColour = "goldenRod";
     }else if (keyCode === 72) {
-        
+        shapeColour = ""
     }
     
 }
