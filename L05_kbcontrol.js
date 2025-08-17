@@ -1,13 +1,14 @@
 let shapeColour = 'blue';
+let CircleSize = 5;
 
 function setup(){
-    createCanvas(1000, 1000);
+    createCanvas(400, 400);
     background(220);
     noStroke();
 }
 
 function mousePressed(){
-    CircleSize = random(10, 1000000000000);
+    CircleSize = random(10, 100);
     shapeColour = color(random(255), random(255), random(255));
     fill(shapeColour);
     circle(mouseX, mouseY, CircleSize);
