@@ -13,7 +13,6 @@ function mousePressed(){
 }
 
 function mouseDragged(){
-    shapeColour = color(random(255), random(255), random(255));
     fill(shapeColour);
     circle(mouseX + mx, mouseY + my, CircleSize);
 }
