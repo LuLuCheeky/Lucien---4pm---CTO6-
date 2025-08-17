@@ -24,11 +24,10 @@ function keyPressed() {
         let shapeColour = color(random(255), random(255), random(255));
         let size = random(10, 80);
         noStroke();
-        circle(x, y, )
+        circle(x, y, size)
         fill(shapeColour);
     }
 }
 
 function keyReleased() {
-    RectSize = 50;
 }
