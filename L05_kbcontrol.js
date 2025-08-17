@@ -103,6 +103,23 @@ function keyPressed() {
         shapeColour = 'gray';
     }else if (keyCode === 57) {
         shapeColour = 'cyan';
+    }else if (keyCode === 65) {
+        shapeColour = 'aqua';
+    }else if (keyCode === 66) {
+        shapeColour = 'beige';
+    }else if (keyCode === 67) {
+        shapeColour = 'chocolate';
+    }else if (keyCode === 68) {
+        shapeColour = 'fuchsia';
+    }else if (keyCode === 69) {
+        shapeColour = 'gold';
+    }else if (keyCode === 70) {
+        shapeColour = 'ivory';
+    }else if (keyCode === 71) {
+        shapeColour = 'khaki';
+    }else if (keyCode === 72) {
+        shapeColour = 'lavenderBlush';
+    }else if (keyCode === 73) {
         
     }
     
