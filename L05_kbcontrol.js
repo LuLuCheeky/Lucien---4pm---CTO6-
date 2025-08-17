@@ -26,8 +26,10 @@ function draw() {
 function keyPressed() {
     if (keyCode === UP_ARROW) {
         let shapeColour = 'red';
-        
+    }else if (keyCode === DOWN_ARROW) {
+        let shapeColour = 'black';
     }
+    
 }
 
 
