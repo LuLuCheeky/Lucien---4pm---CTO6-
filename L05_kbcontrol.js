@@ -17,7 +17,7 @@ function setup(){
 //     CircleSize += 0.5;
 // }
 function draw() {
-        background(220);
+    background(220);
     if (showCircle) {
         circle(width / 2, height  / 2, 100);
     }
