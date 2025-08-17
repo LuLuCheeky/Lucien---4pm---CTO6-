@@ -22,7 +22,7 @@ function keyPressed() {
         let x = random(width);
         let y = random(height);
         let shapeColour = color(random(255), random(255), random(255));
-        size()
+        let size = random(10, )
         fill(shapeColour);
         noStroke();
         circle(x, y, )
