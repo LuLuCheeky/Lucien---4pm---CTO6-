@@ -25,7 +25,8 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === UP_ARROW) {
-        let sha
+        let shapeColour = 'red';
+        
     }
 }
 
