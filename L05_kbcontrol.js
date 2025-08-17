@@ -24,7 +24,7 @@ function draw() {
     let topX = centerX - RectSize / 2;
     let topY = centerY - RectSize / 2;
 
-    RectSize(topX, topY, RectSize, RectSize);
+    rect(topX, topY, RectSize, RectSize);
 }
 
 function keyPressed() {
