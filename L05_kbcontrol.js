@@ -43,7 +43,8 @@ function keyPressed() {
         shapeColour = "darkSlateBlue";
     }else if (keyCode === 79) {
         shapeColour = "darkTurquoise";
-    
+    }else if (keyCode === 80) {
+        shapeColour = "darkViolet";
     }
     
 }
