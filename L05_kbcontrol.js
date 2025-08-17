@@ -17,15 +17,8 @@ function setup(){
 //     CircleSize += 0.5;
 // }
 function keyPressed() {
-    let count = int(random(5, 21));
-    for (let i = 0; i < count; i++) {
-        let x = random(width);
-        let y = random(height);
-        let shapeColour = color(random(255), random(255), random(255));
-        let size = random(10, 80);
-        noStroke();
-        circle(x, y, size)
-        fill(shapeColour);
+    if(key === 'c') {
+        shapeColour = color(random(255), random(255), random(255));
     }
 }
 
