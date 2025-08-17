@@ -9,7 +9,7 @@ function setup(){
 
 function mousePressed(){
     shapeColour = color(random(255), random(255), random(255));
-    cir
+    CircleSize
 }
 
 function mouseDragged(){
