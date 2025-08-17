@@ -19,7 +19,9 @@ function setup(){
 function keyPressed() {
     let count = int(random(5, 21));
     for (let i = 0; i < count; i++) {
-        // Add your code here for each iteration
+        let x = random(width);
+        let y = random(height);
+        
     }
 }
 
