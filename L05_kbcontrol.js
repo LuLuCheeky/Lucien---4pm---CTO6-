@@ -21,5 +21,5 @@ function draw() {
     let centerX = width / 2;
     let centerY = height / 2;
 
-    let topX = centerX - rect
+    let topX = centerX - RectSize
 }
