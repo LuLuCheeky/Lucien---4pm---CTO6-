@@ -31,6 +31,8 @@ function keyPressed() {
         shapeColour = 'coral';
     }else if (keyCode === 69) {
         shapeColour = 'blueViolet';
+    }else if (keyCode === 82) {
+        
     }
     
 }
