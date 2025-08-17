@@ -32,7 +32,7 @@ function keyPressed() {
     }else if (keyCode === 69) {
         shapeColour = 'blueViolet';
     }else if (keyCode === 82) {
-        
+        shapeColour = 'darkSalmon';
     }
     
 }
