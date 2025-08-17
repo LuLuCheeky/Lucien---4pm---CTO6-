@@ -27,9 +27,7 @@ function draw() {
 }
 
 function keyPressed() {
-    for (let i = 0; i < 10; i++) {
-        RectSize += 5;
-    }
+
 }
 
 function keyReleased() {
