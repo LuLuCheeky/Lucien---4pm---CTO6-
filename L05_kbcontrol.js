@@ -18,7 +18,7 @@ function setup(){
 // }
 function keyPressed() {
     if(key === 'c') {
-        shapeColour = color(random(255), random(255), random(255));
+        
     }
 }
 
