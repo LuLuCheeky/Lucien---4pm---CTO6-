@@ -7,13 +7,13 @@ function setup(){
     noStroke();
 }
 
-function mousePressed(){
-    shapeColour = color(random(255), random(255), random(255));
-    CircleSize += 5;
-}
+// function mousePressed(){
+//     shapeColour = color(random(255), random(255), random(255));
+//     CircleSize += 5;
+// }
 
-function mouseDragged(){
-    fill(shapeColour);
-    circle(mouseX, mouseY, CircleSize);
-    CircleSize += 0.5;
-}
+// function mouseDragged(){
+//     fill(shapeColour);
+//     circle(mouseX, mouseY, CircleSize);
+//     CircleSize += 0.5;
+// }
