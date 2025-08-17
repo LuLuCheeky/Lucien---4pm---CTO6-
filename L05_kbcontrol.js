@@ -52,6 +52,10 @@ function keyPressed() {
     }else if (keyCode === 68) {
         shapeColour = "dodgerBlue";
     }else if (keyCode === 70) {
+        shapeColour = "gold";
+    }else if (keyCode === 71) {
+        shapeColour = "goldenRod";
+    }else if (keyCode === 72) {
         
     }
     
