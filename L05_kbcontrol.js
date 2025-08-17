@@ -16,17 +16,6 @@ function setup(){
 //     circle(mouseX, mouseY, CircleSize);
 //     CircleSize += 0.5;
 // }
-
-function draw() {
-    let centerX = width / 2;
-    let centerY = height / 2;
-
-    let topX = centerX - RectSize / 2;
-    let topY = centerY - RectSize / 2;
-
-    rect(topX, topY, RectSize, RectSize);
-}
-
 function keyPressed() {
 
 }
