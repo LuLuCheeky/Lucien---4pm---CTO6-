@@ -144,7 +144,8 @@ function keyPressed() {
     }else if (keyCode === 84) {
         shapeColour = 'yellowGreen';
     }else if (keyCode === 85) {
-        shapeColour = ""
+        shapeColour = "lavenderBlush";
+    }else if (keyCode === 86) {
     }
     
 }
