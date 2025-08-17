@@ -120,7 +120,31 @@ function keyPressed() {
     }else if (keyCode === 72) {
         shapeColour = 'lavenderBlush';
     }else if (keyCode === 73) {
-        
+        shapeColour = 'lime';
+    }else if (keyCode === 74) {
+        shapeColour = 'magenta';
+    }else if (keyCode === 75) {
+        shapeColour = 'maroon';
+    }else if (keyCode === 76) {
+        shapeColour = 'navy';
+    }else if (keyCode === 77) {
+        shapeColour = 'olive';
+    }else if (keyCode === 78) {
+        shapeColour = 'plum';
+    }else if (keyCode === 79) {
+        shapeColour = 'silver';
+    }else if (keyCode === 80) {
+        shapeColour = 'teal';
+    }else if (keyCode === 81) {
+        shapeColour = 'turquoise';
+    }else if (keyCode === 82) {
+        shapeColour = 'violet';
+    }else if (keyCode === 83) {
+        shapeColour = 'wheat';
+    }else if (keyCode === 84) {
+        shapeColour = 'yellowGreen';
+    }else if (keyCode === 85) {
+        shapeColour = ""
     }
     
 }
