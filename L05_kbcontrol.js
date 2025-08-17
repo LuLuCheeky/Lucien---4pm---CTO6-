@@ -38,6 +38,7 @@ function keyPressed() {
     }else if (keyCode === 89) {
         shapeColour = 'darkGoldenRod';
     }else if (keyCode === 85) {
+        shapeColour = 
     }
     
 }
