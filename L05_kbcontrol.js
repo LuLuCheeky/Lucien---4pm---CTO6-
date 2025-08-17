@@ -25,7 +25,7 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === UP_ARROW) {
-        shapeColour = 'red';
+        shapeColour = 'neon ';
     }else if (keyCode === DOWN_ARROW) {
         shapeColour = 'black';
     }
