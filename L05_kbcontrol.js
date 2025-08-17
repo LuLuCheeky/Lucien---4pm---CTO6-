@@ -27,8 +27,8 @@ function keyPressed() {
     console.log(key ,keyCode);
     if (keyCode === 81) {
         shapeColour = 'azure';
-    }else if (keyCode === DOWN_ARROW) {
-        shapeColour = 'lightgoldenrodyellow';
+    }else if (keyCode === 87) {
+        shapeColour = '';
     }
     
 }
