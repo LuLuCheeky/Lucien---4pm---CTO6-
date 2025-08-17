@@ -46,7 +46,7 @@ function keyPressed() {
     }else if (keyCode === 80) {
         shapeColour = "darkViolet";
     }else if (keyCode === 65) {
-        shape
+        shapeColour = "fireBrick";
     }
     
 }
