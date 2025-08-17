@@ -19,8 +19,7 @@ function setup(){
 // }
 function draw() {
     if (showCircle) {
-        circle(width / 2, height  / 2, )
-        circle(mouseX, mouseY, CircleSize);
+        circle(width / 2, height  / 2, 100);
     }
 }
 
