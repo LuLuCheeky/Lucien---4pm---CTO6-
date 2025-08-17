@@ -58,8 +58,12 @@ function keyPressed() {
     }else if (keyCode === 72) {
         shapeColour = "indianRed";
     }else if (keyCode === 74) {
-        shapeColour = "lavender"
-    }
+        shapeColour = "lavender";
+    }else if (keyCode === 75) {
+        shapeColour = "lightBlue";
+    }else if (keyCode === 76) {
+        shapeColour = "lightCoral";
+            }
     
 }
 
