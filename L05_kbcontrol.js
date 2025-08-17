@@ -2,6 +2,7 @@ let RectSize = 5;
 
 function setup(){
     createCanvas(400, 400);
+        background(220);
 }
 
 // function mousePressed(){
@@ -16,7 +17,6 @@ function setup(){
 // }
 
 function draw() {
-    background(220);
     let centerX = width / 2;
     let centerY = height / 2;
 
