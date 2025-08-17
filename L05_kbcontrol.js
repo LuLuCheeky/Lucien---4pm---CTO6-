@@ -20,7 +20,7 @@ function setup(){
 function draw() {
     background(220);
     if (showCircle) {
-        circle(width / 2, height  / 2, 20);
+        circle(width / 2, height  / 2, 200);
     }
 }
 
