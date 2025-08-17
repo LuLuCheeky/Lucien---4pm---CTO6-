@@ -24,7 +24,9 @@ function draw() {
 }
 
 function keyPressed() {
-    console.log(key, keyCode);
+    if (keyCode === UP_ARROW) {
+        
+    }
 }
 
 
