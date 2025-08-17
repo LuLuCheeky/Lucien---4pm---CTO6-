@@ -86,6 +86,23 @@ function keyPressed() {
     }else if (keyCode === 48) {
         shapeColour = 'red';
     }else if (keyCode === 49) {
+        shapeColour = 'green';
+    }else if (keyCode === 50) {
+        shapeColour = 'blue';
+    }else if (keyCode === 51) {
+        shapeColour = 'yellow';
+    }else if (keyCode === 52) {
+        shapeColour = 'orange';
+    }else if (keyCode === 53) {
+        shapeColour = 'purple';
+    }else if (keyCode === 54) {
+        shapeColour = 'pink';
+    }else if (keyCode === 55) {
+        shapeColour = 'brown';
+    }else if (keyCode === 56) {
+        shapeColour = 'gray';
+    }else if (keyCode === 57) {
+        shapeColour = 'cyan';
         
     }
     
