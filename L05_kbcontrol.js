@@ -26,3 +26,4 @@ function draw() {
 
     RectSize(topX, topY, RectSize, RectSize);
 }
+
