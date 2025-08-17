@@ -28,7 +28,9 @@ function keyPressed() {
     if (keyCode === 81) {
         shapeColour = 'azure';
     }else if (keyCode === 87) {
-        shapeColour = '';
+        shapeColour = 'coral';
+    }else if (keyCode === 69) {
+        shapeColour = 'darkcyan';
     }
     
 }
