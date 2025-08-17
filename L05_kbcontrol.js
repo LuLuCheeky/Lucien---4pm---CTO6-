@@ -65,7 +65,14 @@ function keyPressed() {
         shapeColour = "lightCoral";
     }else if (keyCode === 186) {
         shapeColour = "lightGoldenRodYellow";
-        
+    }else if (keyCode === 222) {
+        shapeColour = "lightGray";
+    }else if (keyCode === 188) {
+        shapeColour = "lightPink";
+    }else if (keyCode === 190) {
+        shapeColour = "lightSalmon";
+    }else if (keyCode === 191) {
+        shapeColour = "lightSeaGreen"
     }
     
 }
