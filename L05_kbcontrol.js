@@ -40,7 +40,7 @@ function keyPressed() {
     }else if (keyCode === 85) {
         shapeColour = "darkMagenta";
     }else if (keyCode === 73) {
-        shape
+        shapeColour = "dakrk"
     }
     
 }
