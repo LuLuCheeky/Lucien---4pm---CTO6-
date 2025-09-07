@@ -12,9 +12,9 @@ function setup(){
 function draw(){
     background(220);
 
-    if(keyIsDown("D")){
-        x += speed;
-    }
+    // if(keyIsDown("D")){
+    //     x += speed;
+    // }
     fill("yellow");
     circle(x, y, 50);
 }
