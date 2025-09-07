@@ -15,6 +15,15 @@ function draw(){
     if(keyIsDown("D")){
         x += speed;
     }
+    if(keyIsDown("A")){
+        x -= speed;
+    }
+    if(keyIsDown("W")){
+        y -= speed;
+    }
+    if(keyIsDown("S")){
+        y += speed;
+    }
     fill("yellow");
     circle(x, y, 50);
 }
