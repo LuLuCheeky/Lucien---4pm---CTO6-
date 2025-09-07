@@ -2,7 +2,7 @@
 let shapeColour ='white';
 function setup(){
     createCanvas(400, 400);
-    background(220);
+    background(0);
     noStroke();
     fill(255);
 }
@@ -19,12 +19,10 @@ function setup(){
 // }
 function draw() {
     background(220);
-    circle(width / 2, height / 2, 100);
-    fill(shapeColour);
 }
 
 function keyPressed() {
-    
+
 }
 
 
