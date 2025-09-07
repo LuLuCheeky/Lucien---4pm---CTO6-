@@ -11,11 +11,9 @@ function draw(){
 
     if(key === "DOWN_ARROW"){
         shapeColour = 'red';
-        circle(width / 2, height / 2, 100);
     }
     if(key === "UP_ARROW"){
         shapeColour = 'black';
-        circle(width / 2, height / 2, 100);
     }
 }
 
