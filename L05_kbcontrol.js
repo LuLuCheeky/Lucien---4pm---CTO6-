@@ -16,7 +16,9 @@ function setup(){
 // }
 
 function draw(){
-    
+    if(key === "c"){
+        
+    }
 }
 
 
