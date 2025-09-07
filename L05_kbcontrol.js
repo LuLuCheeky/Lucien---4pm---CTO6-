@@ -28,7 +28,7 @@ function draw(){
     }
 
     if(key === "r"){
-        rect(300, height / 2, 50, 50);
+        rect(300, 200, 50, 50);
     }
 }
 
