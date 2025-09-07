@@ -24,7 +24,7 @@ function draw(){
     }
 
     if(key === "t"){
-        triangle();
+        triangle(width / 2,225);
     }
 
     if(key === "r"){
