@@ -1,5 +1,5 @@
 let speed = 5;
-let x = width / 2;
+let x = 300;
 let y = 200;
 
 function setup(){
@@ -12,9 +12,9 @@ function setup(){
 function draw(){
     background(220);
 
-    // if(keyIsDown("D")){
-    //     x += speed;
-    // }
+    if(keyIsDown("D")){
+        x += speed;
+    }
     fill("yellow");
     circle(x, y, 50);
 }
