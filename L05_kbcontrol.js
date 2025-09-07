@@ -1,4 +1,3 @@
-
 let speed = 5;
 function setup(){
     createCanvas(600, 400);
@@ -10,7 +9,9 @@ function setup(){
 function draw(){
     background(220);
 
-    let x 
+    let x = width / 2;
+    let y = height / 2;
+
     circle(width / 2, height / 2, 50);
 }
 
