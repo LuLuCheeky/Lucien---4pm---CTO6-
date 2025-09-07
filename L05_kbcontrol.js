@@ -31,7 +31,10 @@ function draw(){
     //     rect(275, 175, 50, 50);
     // }
 
-    
+
 }
 
+function keyPressed(){
+    
+}
 
