@@ -21,6 +21,10 @@ function draw(){
     }
 
     if(key === "t"){
+        triangle(200, 100, 300, 300, 100, 300);
+    }
+
+    if(key === "r"){
         
     }
 }
