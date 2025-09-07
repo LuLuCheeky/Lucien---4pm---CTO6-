@@ -12,10 +12,10 @@ function setup(){
 function draw(){
     background(220);
 
-    if(keyIsDown("D")){
+    if(keyIsDown("68")){
         x += speed;
     }
-    if(keyIsDown("A")){
+    if(keyIsDown("65")){
         x -= speed;
     }
     if(keyIsDown("W")){
