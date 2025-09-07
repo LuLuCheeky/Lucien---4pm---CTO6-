@@ -1,4 +1,5 @@
 let x =constraint();
+let speed =
 function setup(){
     createCanvas(600, 400);
     background(220);
