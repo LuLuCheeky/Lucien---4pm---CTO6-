@@ -16,20 +16,22 @@ function setup(){
 // }
 
 function draw(){
-    background(220);
+    // background(220);
 
 
-    if(key === "c"){
-        circle(width / 2, height / 2, 50);
-    }
+    // if(key === "c"){
+    //     circle(width / 2, height / 2, 50);
+    // }
 
-    if(key === "t"){
-        triangle(width / 2, height / 2 - 25, width / 2 - 25, height / 2 + 25, width / 2 +25, height / 2 + 25);
-    }
+    // if(key === "t"){
+    //     triangle(width / 2, height / 2 - 25, width / 2 - 25, height / 2 + 25, width / 2 +25, height / 2 + 25);
+    // }
 
-    if(key === "r"){
-        rect(275, 175, 50, 50);
-    }
+    // if(key === "r"){
+    //     rect(275, 175, 50, 50);
+    // }
+
+    
 }
 
 
