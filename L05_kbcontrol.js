@@ -18,7 +18,7 @@ function setup(){
 function draw(){
     background(220);
 
-    
+
     if(key === "c"){
         circle(width / 2, height / 2, 50);
     }
@@ -28,7 +28,7 @@ function draw(){
     }
 
     if(key === "r"){
-        rect();
+        rect(width / 2);
     }
 }
 
