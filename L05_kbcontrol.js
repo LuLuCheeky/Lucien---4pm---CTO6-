@@ -12,6 +12,8 @@ function setup(){
 function draw(){
     background(220);
 
+    if(key)
+
     circle(x, y, 50);
 }
 
