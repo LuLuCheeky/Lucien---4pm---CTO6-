@@ -148,10 +148,6 @@ function keyPressed() {
     }else if (keyCode === 90) {
         shapeColour = "lightGreen";
     }
-    
-
-
-    
 }
 
 
