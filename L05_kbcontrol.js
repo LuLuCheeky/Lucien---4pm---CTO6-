@@ -12,5 +12,10 @@ function draw(){
     if (key === "w"){
         shapeColour = 'red';
     }
+    if (key === "s"){
+        shapeColour = 'blue';
+    }
+    fill(shapeColour);
+    circle(width / 2, height / 2, 100);
 }
 
