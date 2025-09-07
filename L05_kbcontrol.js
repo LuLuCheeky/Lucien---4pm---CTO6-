@@ -15,7 +15,7 @@ function draw(){
     if(keyIsDown("D")){
         x += speed;
     }
-
+    fill()
     circle(x, y, 50);
 }
 
