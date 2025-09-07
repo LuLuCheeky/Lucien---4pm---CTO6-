@@ -25,7 +25,7 @@ function draw(){
     }
 
     if(key === "r"){
-        rect(150, 150, 100, 100);
+        rect();
     }
 }
 
