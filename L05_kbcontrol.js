@@ -24,7 +24,7 @@ function draw(){
     }
 
     if(key === "t"){
-        triangle(width / 2, height / 2 - 25);
+        triangle(width / 2, height / 2 - 25, width / 2 - 25,);
     }
 
     if(key === "r"){
