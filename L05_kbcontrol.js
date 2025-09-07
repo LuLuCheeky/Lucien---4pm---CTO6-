@@ -18,7 +18,6 @@ function setup(){
 //     CircleSize += 0.5;
 // }
 function draw() {
-    background(220);
 }
 
 function keyPressed() {
