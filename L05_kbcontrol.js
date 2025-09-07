@@ -10,7 +10,7 @@ function draw(){
     background(220);
 
     if (key === "w"){
-        
+        shapeColour = 'red';
     }
 }
 
