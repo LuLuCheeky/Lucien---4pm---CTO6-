@@ -1,4 +1,4 @@
-let shapeColour ='blue';
+let x =cons;
 function setup(){
     createCanvas(600, 400);
     background(220);
@@ -8,6 +8,6 @@ function setup(){
 
 function draw(){
     background(220);
-    
+
 }
 
