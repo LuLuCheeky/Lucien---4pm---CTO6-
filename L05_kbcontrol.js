@@ -13,9 +13,9 @@ function draw(){
         shapeColour = 'red';
         circle(width / 2, height / 2, 100);
     }
-    else if(key === "UP_ARROW"){
+    if(key === "UP_ARROW"){
         shapeColour = 'blue';
-        cicle(width / 2, height / 2, 100);
+        circle(width / 2, height / 2, 100);
     }
 }
 
