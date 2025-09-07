@@ -7,6 +7,11 @@ function setup(){
 
 
 function draw(){
-    back
+    background(220);
+
+    fill(shapeColour);
+    if(key === "DOWN_ARROW"){
+
+    }
 }
 
