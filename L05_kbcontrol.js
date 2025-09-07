@@ -8,20 +8,6 @@ function setup(){
 
 function draw(){
     background(220);
-
-    if (key === "w"){
-        shapeColour = 'red';
-    }
-    if (key === "s"){
-        shapeColour = 'blue';
-    }
-    if (key === "a"){
-        shapeColour = 'green';
-    }
-    if (key === "d"){
-        shapeColour = 'yellow';
-    }
-    fill(shapeColour);
-    circle(width / 2, height / 2, 100);
+    
 }
 
