@@ -12,7 +12,7 @@ function setup(){
 function draw(){
     background(220);
 
-    if(keyIsDown())
+    if(keyIsDown("W")){}
 
     circle(x, y, 50);
 }
