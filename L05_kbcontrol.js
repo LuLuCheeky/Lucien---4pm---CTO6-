@@ -9,9 +9,8 @@ function setup(){
 function draw(){
     background(220);
 
-    fill(shapeColour);
     if(key === "DOWN_ARROW"){
-        circle()
+        circle(width / 2,)
     }
 }
 
