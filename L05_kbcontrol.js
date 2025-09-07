@@ -10,7 +10,7 @@ function draw(){
     background(220);
 
     if(key === "DOWN_ARROW"){
-        
+        shapeColour = 'red';
         circle(width / 2, height / 2, 100);
     }
 }
