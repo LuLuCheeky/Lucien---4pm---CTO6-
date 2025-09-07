@@ -15,7 +15,7 @@ function draw(){
     }
     else if(key === "UP_ARROW"){
         shapeColour = 'blue';
-        square(width / 2 - 50, height / 2 - 50, 100);
+        cicle(width / 2, height / 2, 100);
     }
 }
 
