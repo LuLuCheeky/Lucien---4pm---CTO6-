@@ -4,37 +4,8 @@ function setup(){
     noStroke();
 }
 
-// function mousePressed(){
-//     shapeColour = color(random(255), random(255), random(255));
-//     CircleSize += 5;
-// }
-
-// function mouseDragged(){
-//     fill(shapeColour);
-//     circle(mouseX, mouseY, CircleSize);
-//     CircleSize += 0.5;
-// }
 
 function draw(){
-    // background(220);
 
-
-    // if(key === "c"){
-    //     circle(width / 2, height / 2, 50);
-    // }
-
-    // if(key === "t"){
-    //     triangle(width / 2, height / 2 - 25, width / 2 - 25, height / 2 + 25, width / 2 +25, height / 2 + 25);
-    // }
-
-    // if(key === "r"){
-    //     rect(275, 175, 50, 50);
-    // }
-
-
-}
-
-function draw(){
-    
 }
 
