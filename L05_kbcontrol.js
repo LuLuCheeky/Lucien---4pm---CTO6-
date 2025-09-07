@@ -17,11 +17,5 @@ function setup(){
 //     circle(mouseX, mouseY, CircleSize);
 //     CircleSize += 0.5;
 // }
-function draw() {
-}
-
-function keyPressed() {
-
-}
 
 
