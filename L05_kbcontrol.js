@@ -15,7 +15,7 @@ function draw(){
     if(key === "UP_ARROW"){
         shapeColour = 'black';
     }
-
+    fill(shapeColour);
     circle(width / 2, height / 2, 100);
 }
 
