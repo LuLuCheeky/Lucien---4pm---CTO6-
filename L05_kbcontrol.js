@@ -14,7 +14,7 @@ function draw(){
         circle(width / 2, height / 2, 100);
     }
     if(key === "UP_ARROW"){
-        shapeColour = 'blue';
+        shapeColour = 'b';
         circle(width / 2, height / 2, 100);
     }
 }
