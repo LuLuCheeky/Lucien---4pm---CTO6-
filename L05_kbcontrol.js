@@ -10,7 +10,6 @@ function setup(){
 
 
 function draw(){
-    console.log(keycode)
     background(220);
 
     if(keyIsDown("D")){
@@ -29,3 +28,6 @@ function draw(){
     circle(x, y, 50);
 }
 
+function keyPressed(){
+    
+}
