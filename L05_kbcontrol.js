@@ -1,4 +1,4 @@
-let speed = 5;
+let speed = 100;
 let x = 300;
 let y = 200;
 
