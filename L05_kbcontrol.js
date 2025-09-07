@@ -1,6 +1,7 @@
 let speed = 5;
-    let x = width / 2;
-    let y = height / 2;
+let x = width / 2;
+let y = height / 2;
+
 function setup(){
     createCanvas(600, 400);
     background(220);
