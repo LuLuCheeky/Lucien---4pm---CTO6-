@@ -29,5 +29,5 @@ function draw(){
 }
 
 function keyPressed(){
-    
+    console.log(keycode);
 }
