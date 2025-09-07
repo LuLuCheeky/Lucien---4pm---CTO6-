@@ -1,8 +1,8 @@
 function setup(){
     createCanvas(400, 400);
-    background(0);
+    background(220);
     noStroke();
-    fill(255);
+    fill();
 }
 
 // function mousePressed(){
