@@ -11,7 +11,7 @@ function draw(){
 
     fill(shapeColour);
     if(key === "DOWN_ARROW"){
-
+        circle()
     }
 }
 
