@@ -1,6 +1,6 @@
-let soundEffect
-let bgMusic
-let staticImage
+let soundEffect;
+let bgMusic;
+let staticImage;
 
 function preload(){
     soundEffect = loadSound("assets/pop.mp3");
@@ -8,3 +8,9 @@ function preload(){
     staticImage = loadImage("assets/pico-a.png");
 }
 
+function setup(){
+    createCanvas(600, 400);
+    background(220);
+    noStroke();
+    bgMusic.loop();
+}
