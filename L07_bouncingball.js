@@ -2,7 +2,7 @@ let soundEffect;
 let bgMusic;
 let staticImage;
 let x = width / 2;
-
+let y = height / 2;
 
 
 function preload(){
