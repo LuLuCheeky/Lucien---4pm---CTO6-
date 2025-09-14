@@ -21,8 +21,8 @@ function draw(){
     background(220);
     image(staticImage, x, y, 50, 50);
 
-    x = constrain(x, 30, width - 30);
-    y = constrain(y, 30, height - 40);
+    x = constrain(x, 40, width - 40);
+    y = constrain(y, 40, height - 40);
 
     if(keyIsDown(LEFT_ARROW)){
         x -= 5;
