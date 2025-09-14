@@ -3,7 +3,8 @@ let bgMusic;
 let staticImage;
 let x = 600 / 2 - 50;
 let y = 400 / 2 - 50;
-let imgWidth = 50;
+let imgWidth = 100;
+let imgHeight = 100;
 console.log(x, y);
 
 
@@ -20,7 +21,7 @@ function setup(){
 
 function draw(){
     background(220);
-    image(staticImage, x, y, 50, 50);
+    image(staticImage, x, y, img, 50);
 
     x = constrain(x, 0, width - 50);
     y = constrain(y, 0, height - 50);
