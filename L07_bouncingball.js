@@ -39,5 +39,6 @@ function draw(){
 }
 
 function onKey(){
-    
+    console.log("key pressed", keyCode);
+    if
 }
