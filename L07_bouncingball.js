@@ -37,3 +37,7 @@ function draw(){
         y += 5;
     }
 }
+
+function onKey(){
+    
+}
