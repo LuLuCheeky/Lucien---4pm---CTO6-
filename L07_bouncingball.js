@@ -21,8 +21,8 @@ function draw(){
     background(220);
     image(staticImage, x, y, 50, 50);
 
+    x
 
-    
     if(keyIsDown(LEFT_ARROW)){
         x -= 5;
     }
