@@ -51,5 +51,5 @@ function onKey(){
 function keyReleased(){
     imgWidth = 100;
     imgHeight = 100;
-    
+    soundEffect.stop();
 }
