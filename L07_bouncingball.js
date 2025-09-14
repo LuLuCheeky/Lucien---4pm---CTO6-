@@ -58,4 +58,5 @@
 let x = 200;
 let y = 200;
 let size = 30;
-let
+let xSpeed = 5;
+let ySpeed = 3;
