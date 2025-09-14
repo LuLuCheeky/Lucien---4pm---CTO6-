@@ -21,7 +21,7 @@ function setup(){
 
 function draw(){
     background(220);
-    image(staticImage, x, y, img, 50);
+    image(staticImage, x, y, imgWidth, imgHeight);
 
     x = constrain(x, 0, width - 50);
     y = constrain(y, 0, height - 50);
@@ -44,5 +44,6 @@ function onKey(){
     if(keyCode === 32){
         imgWidth = 50;
         imgHeight = 50;
+        
     }
 }
