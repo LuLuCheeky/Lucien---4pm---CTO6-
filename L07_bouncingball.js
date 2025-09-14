@@ -68,6 +68,9 @@ function setup(){
 function draw(){
     background(220);
 
+    if
+
+
     x += xSpeed;
     y += ySpeed;
 
