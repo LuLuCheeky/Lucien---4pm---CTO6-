@@ -82,5 +82,6 @@ function draw(){
     y += ySpeed;
 
     noStroke();
+    fill(shapeColour);
     circle(x, y, size);
 }
