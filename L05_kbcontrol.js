@@ -29,6 +29,3 @@ function draw(){
     circle(x, y, 50);
 }
 
-function keyPressed(){
-    console.log(keyCode);
-}
