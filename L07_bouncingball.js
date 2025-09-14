@@ -1,8 +1,8 @@
 let soundEffect;
 let bgMusic;
 let staticImage;
-let x = 400 / 2;
-let y = 600 / 2;
+let x = 600 / 2;
+let y = 200 / 2;
 console.log(x, y);
 
 
