@@ -58,8 +58,8 @@ let shapeColour = 'blue';
 let x = 300;
 let y = 200;
 let size = 30;
-let xSpeed = 5;
-let ySpeed = 5;
+let xSpeed = 1;
+let ySpeed = 50;
 
 function setup(){
     createCanvas(600, 400);
