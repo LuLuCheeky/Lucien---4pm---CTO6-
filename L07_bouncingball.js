@@ -3,6 +3,7 @@ let bgMusic;
 let staticImage;
 let x = 600 / 2 - 50;
 let y = 400 / 2 - 50;
+let 
 console.log(x, y);
 
 
@@ -41,6 +42,6 @@ function draw(){
 function onKey(){
     if(keyCode === 32){
         imgWidth = 50;
-        
+        imgHeight = 50;
     }
 }
