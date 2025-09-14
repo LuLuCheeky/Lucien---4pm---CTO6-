@@ -1,1 +1,1 @@
-let soundEffec
+let soundEffect
