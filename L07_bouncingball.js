@@ -47,3 +47,7 @@ function onKey(){
         soundEffect.play();
     }
 }
+
+function keyReleased(){
+    
+}
