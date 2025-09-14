@@ -70,10 +70,11 @@ function draw(){
 
     if (x-size/2 <= 0 || x+size/2 >= width){
         xSpeed*= -1;
-        shapeColour = random
+        shapeColour = colour(random(255), random(255), random(255));
     }
     if (y-size/2 <= 0 || y+size/2 >= height){
         ySpeed*= -1;
+        shapeColour = colour(random(255), random(255), random(255));
     }
 
 
