@@ -57,7 +57,7 @@
 let shapeColour = 'blue';
 let x = 300;
 let y = 200;
-let size = 30;
+let size = 1000;
 let xSpeed = 1000;
 let ySpeed = 1000;
 
