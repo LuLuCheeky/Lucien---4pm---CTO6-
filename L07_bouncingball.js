@@ -71,6 +71,9 @@ function draw(){
     if (x-size/2 <= 0 || x+size/2 >= width){
         xSpeed*= -1;
     }
+    if (y-size/2 <= 0 || y+size/2 >= height){
+        ySpeed*= -1;
+    }
 
 
     x += xSpeed;
