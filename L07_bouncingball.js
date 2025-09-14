@@ -57,6 +57,5 @@
 
 let x = 200;
 let y = 200;
-let diameter = 50;
-let xSpeed = 5;
-let ySpeed = 3;
+let size = 30;
+let
