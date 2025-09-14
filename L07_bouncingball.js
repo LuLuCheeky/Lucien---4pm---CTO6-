@@ -18,7 +18,7 @@ function setup(){
 
 function draw(){
     background(220);
-    image(staticImage, 0, 0, 50, 50);
+    image(staticImage, y, x, 50, 50);
     if(keyIsDown(LEFT_ARROW)){
 
     }
