@@ -72,5 +72,5 @@ function draw(){
     y += ySpeed;
 
     noStroke();
-    
+    circle(x, y, size);
 }
