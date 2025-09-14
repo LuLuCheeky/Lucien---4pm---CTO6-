@@ -1,8 +1,8 @@
 let soundEffect;
 let bgMusic;
 let staticImage;
-let x = 600 / 2;
-let y = 400 / 2;
+let x = 600 / 2 - 50;
+let y = 400 / 2 - 50;
 console.log(x, y);
 
 
@@ -21,7 +21,7 @@ function draw(){
     background(220);
     image(staticImage, x, y, 50, 50);
 
-    x = constrain( x, 0, width - 50);
+    x = constrain(x, 0, width - 50);
     y = constrain(y, 0, height - 50);
 
     if(keyIsDown(LEFT_ARROW)){
