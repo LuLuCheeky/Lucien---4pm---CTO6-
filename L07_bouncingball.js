@@ -2,6 +2,8 @@ let soundEffect;
 let bgMusic;
 let staticImage;
 
+
+
 function preload(){
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/bossaNova.mp3");
@@ -18,7 +20,7 @@ function draw(){
     image(staticImage, 0, 0, 50, 50);
     if(keyIsDown(LEFT_ARROW)){
 
-    
+    }
 }
 
 function keyPressed(){
