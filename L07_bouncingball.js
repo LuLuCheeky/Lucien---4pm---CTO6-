@@ -1,8 +1,8 @@
 let soundEffect;
 let bgMusic;
 let staticImage;
-let x = 300 / 2;
-let y = 200 / 2;
+let x = 200 / 2;
+let y = 300 / 2;
 console.log(x, y);
 
 
@@ -35,11 +35,5 @@ function draw(){
     }
     if(keyIsDown(DOWN_ARROW)){
         y += 5;
-    }
-}
-
-function keyPressed(){
-    if(key === 32){
-        soundEffect.play();  
     }
 }
