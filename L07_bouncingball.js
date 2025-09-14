@@ -58,8 +58,8 @@
 let x = 300;
 let y = 200;
 let size = 30;
-let xSpeed = 50;
-let ySpeed = 100 / 2;
+let xSpeed = 20;
+let ySpeed = 20;
 
 function setup(){
     createCanvas(600, 400);
