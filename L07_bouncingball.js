@@ -20,6 +20,6 @@ function draw(){
 
 function keyPressed(){
     if(key === 32){
-        
+        soundEffect.play();
     }
 }
