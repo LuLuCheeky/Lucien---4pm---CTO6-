@@ -22,7 +22,7 @@ function draw(){
     image(staticImage, x, y, 50, 50);
 
     x = constrain(x, 30, width - 30);
-    y = constrain(y, 30, height - 30);
+    y = constrain(y, 30, height - 40);
 
     if(keyIsDown(LEFT_ARROW)){
         x -= 5;
