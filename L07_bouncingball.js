@@ -17,3 +17,9 @@ function draw(){
     background(220);
     image(staticImage, 0, 0, width, height);
 }
+
+function keyPressed(){
+    if(key === 32){
+        
+    }
+}
