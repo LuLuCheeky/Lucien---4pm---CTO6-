@@ -1,4 +1,4 @@
-let speed = 20;
+let speed = 10;
 let x = 300;
 let y = 200;
 let constainX = constrain(x, 25, width - 25)
