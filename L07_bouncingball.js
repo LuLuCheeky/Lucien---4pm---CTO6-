@@ -58,7 +58,7 @@ let shapeColour = 'blue';
 let x = 300;
 let y = 200;
 let size = 30;
-let xSpeed = 1;
+let xSpeed = 50;
 let ySpeed = 50;
 
 function setup(){
