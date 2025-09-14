@@ -2,7 +2,7 @@ let speed = 20;
 let x = 300;
 let y = 200;
 let constainX = constrain(x, 0, 200)
-
+let constrainY
 function setup(){
     createCanvas(600, 400);
     background(220);
