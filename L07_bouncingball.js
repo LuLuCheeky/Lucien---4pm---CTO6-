@@ -40,6 +40,7 @@ function draw(){
 
 function onKey(){
     if(keyCode === 32){
-        imgWidth = 50
+        imgWidth = 50;
+        
     }
 }
