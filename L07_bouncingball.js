@@ -54,7 +54,7 @@
 //     soundEffect.stop();
 // }
 ////////////////////////////////////////////////////////////////
-
+let shapeColour = 'blue';
 let x = 300;
 let y = 200;
 let size = 30;
@@ -70,7 +70,7 @@ function draw(){
 
     if (x-size/2 <= 0 || x+size/2 >= width){
         xSpeed*= -1;
-        shapeColour()
+        shapeColour = random
     }
     if (y-size/2 <= 0 || y+size/2 >= height){
         ySpeed*= -1;
