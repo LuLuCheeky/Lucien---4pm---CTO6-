@@ -2,7 +2,7 @@ let soundEffect;
 let bgMusic;
 let staticImage;
 let x = width / 2;
-let y = height / 2;
+let y = 3000 / 2;
 console.log(x, y);
 
 
