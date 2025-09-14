@@ -1,6 +1,7 @@
 let soundEffect;
 let bgMusic;
 let staticImage;
+let x = width / 2;
 
 
 
