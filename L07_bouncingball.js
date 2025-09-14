@@ -3,7 +3,7 @@ let bgMusic;
 let staticImage;
 let x = 600 / 2 - 50;
 let y = 400 / 2 - 50;
-let 
+let imgWidth = 50;
 console.log(x, y);
 
 
