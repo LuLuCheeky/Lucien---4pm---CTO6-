@@ -3,6 +3,7 @@ let bgMusic;
 let staticImage;
 let x = width / 2;
 let y = height / 2;
+console.log(x, y);
 
 
 function preload(){
