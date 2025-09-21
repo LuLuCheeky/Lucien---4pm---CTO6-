@@ -76,7 +76,16 @@ function draw(){
         ySpeed*= -1;
         shapeColour = color(random(255), random(255), random(255));
     }
-    if (keyCode === UP_ARROW){
+    x += xSpeed;
+    y += ySpeed;
+
+    noStroke();
+    fill(shapeColour);
+    circle(x, y, size);
+}
+
+function keyPressed(){
+        if (keyCode === UP_ARROW){
         xSpeed *= 1.2;
         ySpeed *= 1.2;
     }
@@ -84,10 +93,4 @@ function draw(){
         xSpeed *= 0.8;
         ySpeed *= 0.8;
     }
-    x += xSpeed;
-    y += ySpeed;
-
-    noStroke();
-    fill(shapeColour);
-    circle(x, y, size);
 }
