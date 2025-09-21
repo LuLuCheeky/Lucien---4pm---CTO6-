@@ -4,4 +4,5 @@ function setup() {
     textSize(32);
     text("My name is Mr Beast", width / 2, height / 2);
     text("I am 100 this year", width / 2, height / 2 + 40);
+    text("I give away money", width / 2, height / 2 + 80);
 }
