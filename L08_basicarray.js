@@ -1,4 +1,4 @@
-let xSpeed = 5;
+let xSpeed = 3;
 let x = 300;
 let y = 200;
 let size = 40;
