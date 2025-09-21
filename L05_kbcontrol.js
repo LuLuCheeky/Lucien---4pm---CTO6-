@@ -1,6 +1,7 @@
 let speed = 10;
 let x = 300;
 let y = 200;
+let 
 function setup(){
     createCanvas(600, 400);
     background(220);
@@ -10,8 +11,6 @@ function setup(){
 
 function draw(){
     background(220);
-
-
 
     if(keyIsDown(68)){
         x += speed;
@@ -28,7 +27,7 @@ function draw(){
 
     x = constrain(x, 25, width - 25);
     y = constrain(y, 25, height - 25);
-    
+
     fill("yellow");
     circle(x, y, 50);
 }
