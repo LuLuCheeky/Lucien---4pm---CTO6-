@@ -1,5 +1,6 @@
 let xSpeed = 5;
-let x = 
+let x = width / 2;
+let y = height / 2;
 function setup(){
     createCanvas(600, 400);
     background(220);
@@ -11,5 +12,5 @@ function draw(){
         xSpeed*= -1;
         shapeColour = color(random(255), random(255), random(255));
     }
-
+    
 }
