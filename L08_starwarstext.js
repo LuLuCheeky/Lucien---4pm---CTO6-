@@ -5,5 +5,6 @@ function setup() {
 }
 
 function draw() {
-    
+    textsize(20);
+    testAli
 }
