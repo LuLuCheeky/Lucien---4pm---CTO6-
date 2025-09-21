@@ -54,34 +54,34 @@
 //     soundEffect.stop();
 // }
 ////////////////////////////////////////////////////////////////
-let shapeColour = 'blue';
-let x = 300;
-let y = 200;
-let size = 100;
-let xSpeed = 50;
-let ySpeed = 50;
+// let shapeColour = 'blue';
+// let x = 300;
+// let y = 200;
+// let size = 50;
+// let xSpeed = 50;
+// let ySpeed = 50;
 
-function setup(){
-    createCanvas(600, 400);
-    background(220);
-}
+// function setup(){
+//     createCanvas(600, 400);
+//     background(220);
+// }
 
-function draw(){
+// function draw(){
 
-    if (x-size/2 <= 0 || x+size/2 >= width){
-        xSpeed*= -1;
-        shapeColour = color(random(255), random(255), random(255));
-    }
-    if (y-size/2 <= 0 || y+size/2 >= height){
-        ySpeed*= -1;
-        shapeColour = color(random(255), random(255), random(255));
-    }
+//     if (x-size/2 <= 0 || x+size/2 >= width){
+//         xSpeed*= -1;
+//         shapeColour = color(random(255), random(255), random(255));
+//     }
+//     if (y-size/2 <= 0 || y+size/2 >= height){
+//         ySpeed*= -1;
+//         shapeColour = color(random(255), random(255), random(255));
+//     }
 
 
-    x += xSpeed;
-    y += ySpeed;
+//     x += xSpeed;
+//     y += ySpeed;
 
-    noStroke();
-    fill(shapeColour);
-    circle(x, y, size);
-}
+//     noStroke();
+//     fill(shapeColour);
+//     circle(x, y, size);
+// }
