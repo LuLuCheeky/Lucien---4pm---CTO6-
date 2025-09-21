@@ -25,6 +25,10 @@ function draw(){
     if(keyIsDown(83)){
         y += speed;
     }
+
+    x = constrain(x, 25, width - 25);
+    y = constrain(y, 25, height - 25);
+    
     fill("yellow");
     circle(x, y, 50);
 }
