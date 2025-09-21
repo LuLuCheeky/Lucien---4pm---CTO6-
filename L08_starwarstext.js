@@ -5,7 +5,7 @@ function setup() {
 }
 
 function draw() {
-    textsize(20);
+    textSize(20);
     textAlign(LEFT);
     text("My favourite foods are:", 20, 30);
     for (let i = 0; i < 5; i++) {
