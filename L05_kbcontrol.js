@@ -30,6 +30,7 @@ function draw(){
     y += vy;
 
     vx *= 0.5;
+    vy *= 0.5;
 
     x = constrain(x, 25, width - 25);
     y = constrain(y, 25, height - 25);
