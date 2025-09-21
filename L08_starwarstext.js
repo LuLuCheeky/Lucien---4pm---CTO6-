@@ -3,6 +3,6 @@ function setup() {
     textAlign(CENTER);
     textSize(32);
     text("My name is Mr Beast", width / 2, height / 2);
-    text("I am 100 this year", width / 2, height / 2 + 40);
-    text("I like giving one dollar to everybody for fun at 12 am.", width / 2, height / 2 + 80);
+    text("I am 100 this year", 50, 100);
+    text("I like giving one dollar to everybody for fun at 12 am.", 50, 150);
 }
