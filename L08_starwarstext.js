@@ -12,5 +12,5 @@ function draw(){
         xSpeed*= -1;
         shapeColour = color(random(255), random(255), random(255));
     }
-    
+    rect(x, y, 50, 50);
 }
