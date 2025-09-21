@@ -1,6 +1,7 @@
 let xSpeed = 5;
 let x = width / 2;
 let y = height / 2;
+let size = 10
 function setup(){
     createCanvas(600, 400);
     background(220);
@@ -8,7 +9,7 @@ function setup(){
 
 function draw(){
     background(220);
-    if (x <= 0 || x >= width){
+    if (x <= 0 || x >= width - size / 2){
         xSpeed*= -1;
         shapeColour = color(random(255), random(255), random(255));
     }
