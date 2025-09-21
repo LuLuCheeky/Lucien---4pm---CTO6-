@@ -20,12 +20,14 @@ function draw(){
         vx -= speed;
     }
     if(keyIsDown(87)){
-        y -= speed;
+        vy -= speed;
     }
     if(keyIsDown(83)){
-        y += speed;
+        vy += speed;
     }
 
+
+    
     x = constrain(x, 25, width - 25);
     y = constrain(y, 25, height - 25);
 
