@@ -80,7 +80,10 @@ function draw(){
         xSpeed *= 1.2;
         ySpeed *= 1.2;
     }
-
+    if (keyCode === DOWN_ARROW){
+        xSpeed *= 0.8;
+        ySpeed *= 0.8;
+    }
     x += xSpeed;
     y += ySpeed;
 
