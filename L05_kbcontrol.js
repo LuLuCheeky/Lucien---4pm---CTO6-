@@ -17,7 +17,7 @@ function draw(){
         vx += speed;
     }
     if(keyIsDown(65)){
-        x -= speed;
+        vx -= speed;
     }
     if(keyIsDown(87)){
         y -= speed;
