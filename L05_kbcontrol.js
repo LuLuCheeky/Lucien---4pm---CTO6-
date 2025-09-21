@@ -27,6 +27,8 @@ function draw(){
     }
 
     x += vx
+    y += vy
+
     
 
     x = constrain(x, 25, width - 25);
