@@ -1,7 +1,8 @@
 let speed = 10;
 let x = 300;
 let y = 200;
-let 
+let vx = 0;
+let vy = 0;
 function setup(){
     createCanvas(600, 400);
     background(220);
@@ -13,7 +14,7 @@ function draw(){
     background(220);
 
     if(keyIsDown(68)){
-        x += speed;
+        vx += speed;
     }
     if(keyIsDown(65)){
         x -= speed;
