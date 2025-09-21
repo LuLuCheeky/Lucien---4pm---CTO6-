@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(600, 400);
-    textAlign(CENTER);
+    
     textSize(30);
     text("My name is Mr Beast", 50, 50);
     text("I am 100 this year", 50, 100);
