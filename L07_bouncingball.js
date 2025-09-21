@@ -76,7 +76,9 @@ function draw(){
         ySpeed*= -1;
         shapeColour = color(random(255), random(255), random(255));
     }
-    if (keyCode ===)
+    if (keyCode === UP_ARROW){
+        
+    }
 
     x += xSpeed;
     y += ySpeed;
