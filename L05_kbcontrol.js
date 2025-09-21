@@ -1,4 +1,4 @@
-let speed = 10;
+let speed = 5;
 let x = 300;
 let y = 200;
 let vx = 0;
@@ -29,8 +29,8 @@ function draw(){
     x += vx;
     y += vy;
 
-    vx *= 0.5;
-    vy *= 0.5;
+    vx *= 0.8;
+    vy *= 0.8;
 
     x = constrain(x, 25, width - 25);
     y = constrain(y, 25, height - 25);
