@@ -85,7 +85,7 @@ function draw(){
 }
 
 function keyPressed(){
-        if (keyCode === UP_ARROW){
+    if (keyCode === UP_ARROW){
         xSpeed *= 1.2;
         ySpeed *= 1.2;
     }
