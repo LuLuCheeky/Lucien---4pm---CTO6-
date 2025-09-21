@@ -6,6 +6,6 @@ function setup() {
 
 function draw() {
     textsize(20);
-    testAlign(LEFT);
+    textAlign(LEFT);
     
 }
