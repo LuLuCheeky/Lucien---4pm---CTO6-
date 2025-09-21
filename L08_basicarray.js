@@ -4,7 +4,6 @@ let y = height / 2;
 let size = 50;
 function setup(){
     createCanvas(600, 400);
-    background(220);
 }
 
 function draw(){
