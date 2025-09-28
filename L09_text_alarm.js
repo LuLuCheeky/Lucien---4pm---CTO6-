@@ -46,4 +46,18 @@ function setup() {
     textSize(100);
     textAlign(CENTER, CENTER);
     interval = setInterval(countdown, 1000);
-    
+}
+
+function draw() {
+    background(220);
+    text(countdownNum, width / 2, height / 2);
+}
+
+function countdown() {
+    countdownNum--;
+    if (countdownNum < 0) {
+        clearInterval(interval);
+        countdownNum = "0";
+        // You can add sound or other alarm actions here
+    }
+}
