@@ -54,3 +54,35 @@ function countdown() {
 }
 
 
+//
+let countdown = 5; 
+let interval; 
+
+function setup() {
+    createCanvas(600, 600); 
+}
+
+function draw() {
+    background(220);
+
+    textSize(100); 
+    textAlign(CENTER);
+    text(countdown, width/2, height/2); 
+
+    textSize(34); 
+    textAlign(CENTER);
+    text("Click to Start Timer", width/2, height - 50); 
+
+}
+
+function mousePressed() {
+        interval = setInterval(countdownUpdate, 1000); 
+}
+
+function countdownUpdate() {
+    if(countdown>0) {
+        countdown -=1; 
+    } else {
+        clearInterval(interval);
+    }
+}
