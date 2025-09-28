@@ -30,7 +30,7 @@ function draw() {
         text(storyText[i], width / 2, yPos + i * 50);
         yPos -= 0.1;
     if (yPos < - storyText.length * 24 + (storyText.length - 1) * 50) {
-            yPos = height;
+        yPos = height;
     }
     }
 }
