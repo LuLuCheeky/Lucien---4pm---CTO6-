@@ -20,9 +20,7 @@
 // }
 
 
-let h = hour();
-let m = minute();
-let s = second();
+
 
 function setup() {
   createCanvas(600, 400);
