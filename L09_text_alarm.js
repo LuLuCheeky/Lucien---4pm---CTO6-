@@ -26,16 +26,6 @@
 //   textAlign(CENTER, CENTER);
 // }
 
-function draw() {
-    background(220);
-    
-    let h = hour();
-    let m = minute();
-    let s = second();
-    let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
-    
-    text(timeString, width / 2, height / 2);
-}
 
 
 let countdownNum = 5;
@@ -61,3 +51,13 @@ function countdown() {
     }
 }
 
+function draw() {
+    background(220);
+    
+    let h = hour();
+    let m = minute();
+    let s = second();
+    let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
+    
+    text(timeString, width / 2, height / 2);
+}
