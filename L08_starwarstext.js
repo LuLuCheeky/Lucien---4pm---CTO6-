@@ -29,7 +29,7 @@ function draw() {
     for (let i = 0; i < 14; i++) {
         text(storyText[i], width / 2, yPos + i * 50);
         yPos -= 0.1;
-        if (yPos < - storyText.length * 50) {
+        if (yPos < - storyText.length * 24 + (storyText.length - 1) * 50) {
             yPos = height;
         }
     }
