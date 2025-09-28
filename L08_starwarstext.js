@@ -32,10 +32,11 @@ function setup() {
 function mousePressed() {
     bgMusic.play();
     bgMusic.loop();
-}    
+}
+
 
 function draw() {
-    if (bgMusic && bgMusic.isPlaying()) {
+    if (bgMusic.isPlaying()) {
         background(0);
         textSize(24);
         textAlign(CENTER);
