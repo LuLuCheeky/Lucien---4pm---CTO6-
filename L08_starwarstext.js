@@ -19,7 +19,7 @@ let bgMusic;
 
 
 function preload() {
-    bgMusic = loadSound("assets/starwars.mp3");
+    bgMusic = loadSound("assets/star_wars.mp3");
 }
 
 let yPos;
