@@ -36,3 +36,14 @@
     
 //     text(timeString, width / 2, height / 2);
 // }
+
+
+let countdownNum = 5;
+let interval;
+
+function setup() {
+    createCanvas(600, 400);
+    textSize(100);
+    textAlign(CENTER, CENTER);
+    interval = setInterval(countdown, 1000);
+    
