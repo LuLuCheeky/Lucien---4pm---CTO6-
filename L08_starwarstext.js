@@ -1,6 +1,8 @@
 let favouriteFood = ["poop", "snot", "boogers", "earwax", "toe jam"];
+let yPos;
 function setup() {
     createCanvas(600, 400);
+    yPos = height;
 }
 
 function draw() {
