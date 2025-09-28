@@ -26,16 +26,16 @@
 //   textAlign(CENTER, CENTER);
 // }
 
-// function draw() {
-//     background(220);
+function draw() {
+    background(220);
     
-//     let h = hour();
-//     let m = minute();
-//     let s = second();
-//     let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
+    let h = hour();
+    let m = minute();
+    let s = second();
+    let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
     
-//     text(timeString, width / 2, height / 2);
-// }
+    text(timeString, width / 2, height / 2);
+}
 
 
 let countdownNum = 5;
@@ -50,7 +50,7 @@ function setup() {
 
 function draw() {
     background(220);
-    text(countdownNum, width / 2, height / 2 - 50);
+    text(countdownNum, width / 2, height / 2 + 50);
 }
 
 function countdown() {
