@@ -1,11 +1,10 @@
 let favouriteFood = ["poop", "snot", "boogers", "earwax", "toe jam"];
 function setup() {
     createCanvas(600, 400);
-    background(220);
 }
 
 function draw() {
-    background
+    background(0);
     textSize(20);
     textAlign(LEFT);
     text("My favourite foods are:", 20, 30);
