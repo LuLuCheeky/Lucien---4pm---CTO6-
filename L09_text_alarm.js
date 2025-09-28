@@ -40,8 +40,7 @@ function setup() {
 
 function draw() {
     if (mouseIsPressed) {
-        countdownNum = 5;
-        interval = setInterval(countdown, 1000);
+        text(countdownNum, width / 2, height / 2 + 50);
     }
     background(220);
 }
