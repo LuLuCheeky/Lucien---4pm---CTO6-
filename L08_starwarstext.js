@@ -26,7 +26,7 @@ function draw() {
     textSize(20);
     fill("yellow")
     for (let i = 0; i < 5; i++) {
-        text(i + 1 + ". " + favouriteFood[i], width / 2, yPos + i * 30);
+        text(i + 1 + ". " + storyText[i], width / 2, yPos + i * 30);
         yPos -= 0.5;
     }
 }
