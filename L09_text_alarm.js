@@ -41,7 +41,7 @@ function setup() {
 function draw() {
     background(220);
     text(countdownNum, width / 2, height / 2 + 50);
-        background(220);
+    background(220);
     textSize(48);
     let h = hour();
     let m = minute();
