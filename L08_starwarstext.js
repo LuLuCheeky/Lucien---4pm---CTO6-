@@ -10,7 +10,7 @@ function draw() {
     textSize(20);
     fill("yellow")
     for (let i = 0; i < 5; i++) {
-        text(i + 1 + ". " + favouriteFood[i], width / 2, 60 + i * 30);
+        text(i + 1 + ". " + favouriteFood[i], width / 2, yPos);
         yPos -= 1;
     }
 }
