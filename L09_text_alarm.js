@@ -53,7 +53,7 @@ function countdown() {
 
 function draw() {
     background(220);
-    
+    textSize(48);
     let h = hour();
     let m = minute();
     let s = second();
