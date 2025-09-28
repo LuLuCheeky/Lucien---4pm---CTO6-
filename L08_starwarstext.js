@@ -8,6 +8,7 @@ function setup() {
 function draw() {
     background(0);
     textSize(20);
+    fill("yellow")
     for (let i = 0; i < 5; i++) {
         text(i + 1 + ". " + favouriteFood[i], 20, 60 + i * 30);
         yPos -= 1;
