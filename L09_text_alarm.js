@@ -41,7 +41,7 @@ function draw() {
     if (mousePressed()) {
         interval = setInterval(countdown, 1000);
         background(220);
-text(countdownNum, width / 2, height / 2 + 50); 
+        text(countdownNum, width / 2, height / 2 + 50); 
     }
 }
 
