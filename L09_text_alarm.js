@@ -40,10 +40,10 @@ function setup() {
 
 function draw() {
     if (mouseIsPressed) {
-        // You can add code here to handle mouse press
+        countdownNum = 5;
+        interval = setInterval(countdown, 1000);
     }
     background(220);
-    text(countdownNum, width / 2, height / 2 + 50);
 }
 
 function countdown() {
