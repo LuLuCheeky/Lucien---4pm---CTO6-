@@ -39,7 +39,9 @@ function setup() {
 }
 
 function draw() {
-    
+    if (mouseIsPressed) {
+        // You can add code here to handle mouse press
+    }
     background(220);
     text(countdownNum, width / 2, height / 2 + 50);
 }
