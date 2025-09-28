@@ -57,6 +57,7 @@ function countdown() {
     countdownNum--;
     if (countdownNum < 0) {
         clearInterval(interval);
-        countdownNum = 1;
+        countdownNum = 0;
     }
 }
+
