@@ -43,7 +43,7 @@ let interval;
 
 function setup() {
     createCanvas(600, 400);
-    textSize(100);
+    textSize(30);
     textAlign(CENTER, CENTER);
     interval = setInterval(countdown, 1000);
 }
