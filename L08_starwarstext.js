@@ -24,10 +24,10 @@ function setup() {
 function draw() {
     background(0);
     textSize(20);
-    
+    textAlign(CENTER);
     fill("yellow")
     for (let i = 0; i < 14; i++) {
         text(storyText[i], width / 2, yPos + i * 30);
-        yPos -= 0.2;
+        yPos -= 0.1;
     }
 }
