@@ -20,7 +20,8 @@
 // }
 
 
-let coun
+let countdownNum = 5;
+let
 
 function setup() {
   createCanvas(600, 400);
