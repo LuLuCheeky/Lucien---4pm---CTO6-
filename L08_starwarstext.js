@@ -15,6 +15,8 @@ let storyText = [
     "May the Code be with you!"
 ];
 
+let bgMusic;
+
 let yPos;
 function setup() {
     createCanvas(600, 400);
