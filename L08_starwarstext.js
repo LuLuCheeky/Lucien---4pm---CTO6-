@@ -23,13 +23,13 @@ function setup() {
 
 function draw() {
     background(0);
-    textSize(20);
+    textSize(24);
     textAlign(CENTER);
     fill("yellow")
     for (let i = 0; i < 14; i++) {
-        text(storyText[i], width / 2, yPos + i * 30);
+        text(storyText[i], width / 2, yPos + i * 50);
         yPos -= 0.1;
-        if (yPos) {
+        if (y) {
             yPos = height;
         }
     }
