@@ -41,6 +41,14 @@ function setup() {
 function draw() {
     background(220);
     text(countdownNum, width / 2, height / 2 + 50);
+        background(220);
+    textSize(48);
+    let h = hour();
+    let m = minute();
+    let s = second();
+    let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
+    
+    text(timeString, width / 2, height / 2);
 }
 
 function countdown() {
@@ -51,13 +59,3 @@ function countdown() {
     }
 }
 
-function draw() {
-    background(220);
-    textSize(48);
-    let h = hour();
-    let m = minute();
-    let s = second();
-    let timeString = nf(h, 2) + ':' + nf(m, 2) + ':' + nf(s, 2);
-    
-    text(timeString, width / 2, height / 2);
-}
