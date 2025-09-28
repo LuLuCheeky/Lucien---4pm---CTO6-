@@ -57,7 +57,6 @@ function countdown() {
     countdownNum--;
     if (countdownNum < 0) {
         clearInterval(interval);
-        countdownNum = "0";
-        // You can add sound or other alarm actions here
+        countdownNum = 1;
     }
 }
