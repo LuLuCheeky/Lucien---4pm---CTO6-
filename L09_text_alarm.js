@@ -39,10 +39,8 @@ function setup() {
 }
 
 function draw() {
-    if (mouseIsPressed) {
-        background(220);
-        text(countdownNum, width / 2, height / 2 + 50);
-    }
+background(220);
+    text(countdownNum, width / 2, height / 2 + 50); 
 }
 
 function countdown() {
