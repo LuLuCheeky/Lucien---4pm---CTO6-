@@ -26,7 +26,6 @@ let yPos;
 function setup() {
     createCanvas(600, 400);
     yPos = height;
-    bgMusic.loop();
 }
 
 function draw() {
