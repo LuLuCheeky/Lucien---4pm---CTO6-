@@ -10,5 +10,6 @@ function draw() {
     textSize(20);
     for (let i = 0; i < 5; i++) {
         text(i + 1 + ". " + favouriteFood[i], 20, 60 + i * 30);
+        yPos -= 1;
     }
 }
