@@ -24,7 +24,7 @@
 
 function setup() {
   createCanvas(600, 400);
-  textSize(32);
+  textSize(50);
   textAlign(CENTER, CENTER);
 }
 
