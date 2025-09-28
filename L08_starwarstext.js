@@ -28,6 +28,11 @@ function setup() {
     yPos = height;
 }
 
+function mousePressed() {
+    bgMusic.play();
+    bgMusic.loop();
+}    
+
 function draw() {
     background(0);
     textSize(24);
