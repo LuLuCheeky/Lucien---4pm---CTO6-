@@ -26,7 +26,7 @@ let yPos;
 function setup() {
     createCanvas(600, 400);
     yPos = height;
-    text()
+    text("Click to play music", width / 2, height / 2);
 }
 
 function mousePressed() {
