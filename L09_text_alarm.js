@@ -25,7 +25,7 @@ let m = minute();
 let s = second();
 
 function setup() {
-  createCanvas(400, 200);
+  createCanvas(600, 400);
   textSize(32);
   textAlign(CENTER, CENTER);
 }
