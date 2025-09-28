@@ -31,6 +31,6 @@ function draw() {
         yPos -= 0.1;
     if (yPos < - storyText.length * 24 + (storyText.length - 1) * 50) {
             yPos = height;
-    }   
+        }
     }
 }
