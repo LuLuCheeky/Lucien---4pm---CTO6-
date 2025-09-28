@@ -35,10 +35,12 @@ function setup() {
     createCanvas(600, 400);
     textSize(30);
     textAlign(CENTER, CENTER);
-    interval = setInterval(countdown, 1000);
 }
 
 function draw() {
+    if (mousePressed()) {
+        
+    }
     background(220);
     text(countdownNum, width / 2, height / 2 + 50); 
 }
