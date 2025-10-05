@@ -66,5 +66,7 @@ function countdown() {
 
 }
 
-change
+function changeVar() {
+    bgColour = color(random(255), random(255), random(255));
+}
 //
