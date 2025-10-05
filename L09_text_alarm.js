@@ -29,7 +29,7 @@
 
 
 let countdownNum = 5;
-
+let interval;
 
 function setup() {
     createCanvas(600, 400);
@@ -38,51 +38,23 @@ function setup() {
 }
 
 function draw() {
-    if (mousePressed()) {
-        interval = setInterval(countdown, 1000);
-        background(220);
-        text(countdownNum, width / 2, height / 2 + 50); 
-    }
-}
-
-function countdown() {
-    countdownNum--;
-    if (countdownNum < 0) {
-        clearInterval(interval);
-        countdownNum = 0;
-    }
-}
-
-
-//
-let countdown = 5; 
-let interval; 
-
-function setup() {
-    createCanvas(600, 600); 
-}
-
-function draw() {
     background(220);
-
-    textSize(100); 
-    textAlign(CENTER);
-    text(countdown, width/2, height/2); 
-
-    textSize(34); 
-    textAlign(CENTER);
-    text("Click to Start Timer", width/2, height - 50); 
-
+    textSize(32);
+    text("Click to Start Timer", width / 2, height - 50);
+    textSize(100);
+    text(countdownNum, width / 2, height / 2);
 }
 
 function mousePressed() {
-        interval = setInterval(countdownUpdate, 1000); 
+    interval = setInterval(countdown, 1000);
 }
 
-function countdownUpdate() {
-    if(countdown>0) {
-        countdown -=1; 
+function updateCountdown() {
+    if (countdownNum > 0) {
+        countdownNum -= 1;
     } else {
         clearInterval(interval);
     }
+
 }
+//
