@@ -30,10 +30,10 @@
 
 let countdownNum = 5;
 let interval;
-let SOUNNDDD;
+let SOUN;
 
 function preload() {
-    SOUND = loadSound('assets/alarm.wav');
+    SOUND = loadSound('assets/bossaNova.mp3');
 }
 
 function setup() {
