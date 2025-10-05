@@ -43,7 +43,7 @@ function setup() {
 }
 
 function draw() {
-    background(bg);
+    background(bgColour);
     textSize(32);
     text("Click to Start Timer", width / 2, height - 50);
     textSize(100);
