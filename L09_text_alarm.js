@@ -30,6 +30,7 @@
 
 let countdownNum = 5;
 let interval;
+let SOUNNDDD;
 
 function setup() {
     createCanvas(600, 400);
@@ -54,7 +55,7 @@ function countdown() {
         countdownNum -= 1;
     } else {
         clearInterval(interval);
-        
+
 
     }
 
