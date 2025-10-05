@@ -30,7 +30,7 @@
 
 let countdownNum = 5;
 let interval;
-let SOUN;
+let SOUND;
 
 function preload() {
     SOUND = loadSound('assets/bossaNova.mp3');
@@ -59,7 +59,8 @@ function countdown() {
         countdownNum -= 1;
     } else {
         clearInterval(interval);
-
+        SOUND.play();
+        
 
     }
 
