@@ -69,5 +69,6 @@ function countdown() {
 
 function changeVar() {
     bgColour = color(random(255), random(255), random(255));
+    SOUND.play();
 }
 //
