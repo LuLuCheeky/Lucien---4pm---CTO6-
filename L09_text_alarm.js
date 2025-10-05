@@ -49,7 +49,7 @@ function mousePressed() {
     interval = setInterval(countdown, 1000);
 }
 
-function updateCountdown() {
+function countdown() {
     if (countdownNum > 0) {
         countdownNum -= 1;
     } else {
