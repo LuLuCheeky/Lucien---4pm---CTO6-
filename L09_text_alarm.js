@@ -32,6 +32,10 @@ let countdownNum = 5;
 let interval;
 let SOUNNDDD;
 
+function preload() {
+    SOUND = loadSound('assets/alarm.wav');
+}
+
 function setup() {
     createCanvas(600, 400);
     textSize(30);
