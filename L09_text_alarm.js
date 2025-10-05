@@ -31,6 +31,7 @@
 let countdownNum = 5;
 let interval;
 let SOUND;
+let bgColour = 220;
 
 function preload() {
     SOUND = loadSound('assets/bossaNova.mp3');
