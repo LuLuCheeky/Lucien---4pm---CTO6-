@@ -60,7 +60,7 @@ function countdown() {
     } else {
         clearInterval(interval);
         SOUND.play();
-        
+        change = setInterval
 
     }
 
