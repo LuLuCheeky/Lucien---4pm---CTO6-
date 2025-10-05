@@ -54,7 +54,8 @@ function countdown() {
         countdownNum -= 1;
     } else {
         clearInterval(interval);
-        background(random)
+        background(random(255), random(255), random(255));
+        
     }
 
 }
