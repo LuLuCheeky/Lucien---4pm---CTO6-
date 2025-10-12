@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    fill("purple");
+    fill(220,0,0);
     x += 1;
     y += 1;
 }
