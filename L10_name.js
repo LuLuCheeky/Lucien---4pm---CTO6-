@@ -17,3 +17,7 @@ function draw() {
     fill(0);
     text("Type something :D", 50, height - 50);
 }
+
+function userInputUp() {
+    user.Text = this.Value();
+}
