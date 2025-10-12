@@ -36,7 +36,7 @@ function setup() {
 }
 
 function draw() {
-    background(colourPicker.value());
+    background(colourPicker.color());
     
     Text("Pick a colour!", 50, colourPicker);
 
