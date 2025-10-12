@@ -9,7 +9,7 @@ function setup() {
 
 }
 
-function draw() {
+function draw() {       
     background(220);
 
     textAlign(CENTER, CENTER);
