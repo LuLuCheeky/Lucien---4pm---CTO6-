@@ -23,3 +23,4 @@
 //     x = constrain(x, 25, width - 25);
 // }
 
+let food = [burger]
