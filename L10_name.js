@@ -1,12 +1,13 @@
 let input;
 let text = "TEXT WOW 😲😲"
 
+
 function setup() {
     createCanvas(600,600);
 
     input = createInput();
     input.position(width / 2 - input.width / 2, height - 50);
-    input.input(userInputUp);
+    userInput.input(userInputUp);
 
 }
 
