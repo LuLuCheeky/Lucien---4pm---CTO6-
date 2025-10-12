@@ -10,7 +10,6 @@ function setup() {
 function draw() {
     background("lightblue");
     y = height / 2;
-    x = width / 2;
     fill(220,0,0);
     x += 2;
     circle(x, y, 50);
