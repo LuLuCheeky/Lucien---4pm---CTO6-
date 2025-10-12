@@ -12,10 +12,10 @@ function draw() {
     background("lightblue");
     y = height / 2;
     fill(220,0,0);
-    x += 2;
+    x += speed;
     circle(x, y, 50);
     if (x > width - 25) {
-        x += -1;
+        speed = -2;
     }
     x = constrain(x, 25, width - 25);
 }
