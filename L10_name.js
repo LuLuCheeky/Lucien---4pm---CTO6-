@@ -19,5 +19,5 @@ function draw() {
 }
 
 function userInputUp() {
-    user.Text = this.Value();
+    user.text = this.value();
 }
