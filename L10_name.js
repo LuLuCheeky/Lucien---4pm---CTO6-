@@ -26,3 +26,19 @@
 // }
 
 let colourPicker;
+
+function setup() {
+    createCanvas(400, 400);
+    
+    colourPicker = createColorPicker('orange');
+    colourPicker.position(width / 2, height - 50);
+
+}
+
+function draw() {
+    background(colourPicker.value());
+    
+    Text("Pick a colour!", 50, colourPicker);
+
+    rect(50, 100, 500, 150);
+}
