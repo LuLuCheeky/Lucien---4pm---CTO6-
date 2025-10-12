@@ -14,7 +14,7 @@ function draw() {
     background(220);
 
     textAlign(CENTER, BOTTOM);
-    textSize(32);
+    textSize(15);
     fill(0);
     text("Type something :D", 50, height - 50);
 
