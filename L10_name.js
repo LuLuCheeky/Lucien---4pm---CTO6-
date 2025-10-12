@@ -6,6 +6,7 @@ function setup() {
 
     input = createInput();
     input.position(width / 2 - input.width / 2, height - 50);
+    userInputUp.input
 
 }
 
