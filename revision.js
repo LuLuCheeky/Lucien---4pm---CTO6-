@@ -13,7 +13,7 @@ function draw() {
     fill(220,0,0);
     x += 2;
     circle(x, y, 50);
-    if (x > width - 25 || x < 25) {
+    if (x > width - 25) {
         x += -1
     }
     x = constrain(x, 25, width - 25);
