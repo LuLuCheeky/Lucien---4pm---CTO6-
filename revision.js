@@ -23,4 +23,4 @@
 //     x = constrain(x, 25, width - 25);
 // }
 
-let food = ["pizza", "burger", "fries", "salad", "sushi"];
+let food = ["pizza", "burger", "fries", "salad"];
