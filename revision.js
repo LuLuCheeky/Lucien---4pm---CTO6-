@@ -8,6 +8,7 @@ function setup() {
 }
 
 function draw() {
+    background("lightblue");
     y = height / 2
     fill(220,0,0);
     x += 2;
