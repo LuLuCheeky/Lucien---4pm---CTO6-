@@ -28,47 +28,69 @@
 
 
 
-let countdownNum = 5;
-let interval;
-let SOUND;
-let bgColour = 220;
+// let countdownNum = 5;
+// let interval;
+// let SOUND;
+// let bgColour = 220;
 
-function preload() {
-    SOUND = loadSound('assets/bossaNova.mp3');
-}
+// function preload() {
+//     SOUND = loadSound('assets/bossaNova.mp3');
+// }
+
+// function setup() {
+//     createCanvas(600, 400);
+//     textSize(30);
+//     textAlign(CENTER, CENTER);
+// }
+
+// function draw() {
+//     background(bgColour);
+//     textSize(32);
+//     text("Click to Start Timer", width / 2, height - 50);
+//     textSize(100);
+//     text(countdownNum, width / 2, height / 2);
+// }
+
+// function mousePressed() {
+//     interval = setInterval(countdown, 1000);
+// }
+
+// function countdown() {
+//     if (countdownNum > 0) {
+//         countdownNum -= 1;
+//     } else {
+//         clearInterval(interval);
+//         SOUND.play();
+//         change = setInterval(changeVar, 500);
+
+//     }
+
+// }
+
+// function changeVar() {
+//     bgColour = color(random(255), random(255), random(255));
+//     SOUND.play();
+// }
+//
+
+let interval;
+let bgColour = 220;
 
 function setup() {
     createCanvas(600, 400);
-    textSize(30);
-    textAlign(CENTER, CENTER);
+    interval = setInterval(changeBg, 1000);
 }
 
 function draw() {
     background(bgColour);
-    textSize(32);
-    text("Click to Start Timer", width / 2, height - 50);
-    textSize(100);
-    text(countdownNum, width / 2, height / 2);
+
+    let s = 59 - nf(second(), 2);
+
+    textSize(50);
+
+    text(s, width / 2, height / 2);
 }
 
-function mousePressed() {
-    interval = setInterval(countdown, 1000);
-}
-
-function countdown() {
-    if (countdownNum > 0) {
-        countdownNum -= 1;
-    } else {
-        clearInterval(interval);
-        SOUND.play();
-        change = setInterval(changeVar, 500);
-
-    }
-
-}
-
-function changeVar() {
+function changeBg() {
     bgColour = color(random(255), random(255), random(255));
-    SOUND.play();
 }
-//

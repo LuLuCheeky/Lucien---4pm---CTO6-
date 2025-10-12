@@ -1,1 +1,19 @@
-// write your codes here
+let input;
+let text = "TEXT WOW 😲😲"
+
+function setup() {
+    createCanvas(600,600);
+
+    input = createInput();
+    input.position(width / 2 - input.width / 2, height - 50);
+
+}
+
+function draw() {
+    background(220);
+
+    textAlign(CENTER, CENTER);
+    textSize(32);
+    fill(0);
+    text("Type something :D", 50, height - 50);
+}
