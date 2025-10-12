@@ -1,5 +1,5 @@
 let userInput;
-let userText
+let userText;
 
 function setup() {
     createCanvas(600,600);
@@ -17,6 +17,8 @@ function draw() {
     textSize(32);
     fill(0);
     text("Type something :D", 50, height - 50);
+
+    text(userText, width/2, height/2);
 }
 
 function userInputUp() {
