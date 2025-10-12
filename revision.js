@@ -1,4 +1,4 @@
-let x = 0;
+let x;
 let y;
 
 function setup() {
@@ -9,7 +9,8 @@ function setup() {
 
 function draw() {
     background("lightblue");
-    y = height / 2
+    y = height / 2;
+    x = 
     fill(220,0,0);
     x += 2;
     circle(x, y, 50);
