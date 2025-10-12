@@ -4,7 +4,7 @@ let userText
 
 function setup() {
     createCanvas(600,600);
-
+    background(220);
     input = createInput();
     input.position(width / 2 - input.width / 2, height - 50);
     userInput.input(userInputUp);
