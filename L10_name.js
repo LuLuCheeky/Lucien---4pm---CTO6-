@@ -1,11 +1,11 @@
-// let userInput;wd
+// let userInput;
 // let userText
 
 // function setup() {
 //     createCanvas(600,600);
 //     background(220);
 //     userInput = createInput();
-//     input.position(width / 2 - input.width / 2, height - 50);
+//     userInput.position(width / 2 - input.width / 2, height - 50);
 //     userInput.input(userInputUp);
 
 // }
