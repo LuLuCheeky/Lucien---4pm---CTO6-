@@ -12,5 +12,5 @@ function draw() {
     x += 2;
     circle(x, y);
 
-    x = constrain
+    x = constrain(x, 25, width);
 }
