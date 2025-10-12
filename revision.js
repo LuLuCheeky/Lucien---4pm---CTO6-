@@ -17,5 +17,7 @@ function draw() {
         x *= -1;
     }
     if (x < 25) {
+        x *= -1;
+    }
     x = constrain(x, 25, width - 25);
 }
