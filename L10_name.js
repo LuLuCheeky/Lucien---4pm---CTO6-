@@ -12,7 +12,7 @@ function setup() {
 function draw() {       
     background(220);
 
-    textAlign(CENTER, CENTER);
+    textAlign(CENTER,R);
     textSize(32);
     fill(0);
     text("Type something :D", 50, height - 50);
