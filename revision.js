@@ -10,5 +10,5 @@ function setup() {
 function draw() {
     fill(220,0,0);
     x += 2;
-    circle(x)
+    circle(x, y)
 }
