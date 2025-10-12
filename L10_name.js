@@ -1,5 +1,4 @@
-// let userInput;
-// let text = "TEXT WOW 😲😲"
+// let userInput;wd
 // let userText
 
 // function setup() {
