@@ -6,3 +6,9 @@ function setup() {
     background("lightblue");
     noStroke();
 }
+
+function draw() {
+    fill("purple");
+    x += 1;
+    y += 1;
+}
