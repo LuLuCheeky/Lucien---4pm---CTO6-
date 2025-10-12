@@ -17,5 +17,8 @@ function draw() {
     if (x > width - 25) {
         speed = -2;
     }
+    if (x < 25) {
+        speed = 2;
+    }
     x = constrain(x, 25, width - 25);
 }
