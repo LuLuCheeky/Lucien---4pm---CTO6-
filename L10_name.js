@@ -1,6 +1,6 @@
-let input;
+let userInput;
 let text = "TEXT WOW 😲😲"
-
+let userText
 
 function setup() {
     createCanvas(600,600);
