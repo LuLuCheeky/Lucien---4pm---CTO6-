@@ -25,3 +25,4 @@
 //     userText = this.value();
 // }
 
+let colourPicker;
