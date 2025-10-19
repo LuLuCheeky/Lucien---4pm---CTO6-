@@ -64,3 +64,7 @@ function draw() {
 
 
 }
+
+function userInputUp() {
+    userText = this.text();
+}
