@@ -44,7 +44,7 @@ function setup() {
     createCanvas(400, 400);
     
     colourPicker = createColorPicker('yellow');
-    colourPicker.position(width / 2, height);
+    colourPicker.position(width / 2 - 50, height / 2);
 
 }
 
