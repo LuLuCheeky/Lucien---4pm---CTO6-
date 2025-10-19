@@ -52,7 +52,7 @@ function draw() {
     background(colourPicker.value());
     
     textSize(24);
-    text("Enter your name:")
+    text("Enter your name: ", width / 2)
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
 
