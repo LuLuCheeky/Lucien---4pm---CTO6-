@@ -40,7 +40,7 @@
 
 let colourPicker;
 let userInput;
-let user
+let userText;
 
 function setup() {
     createCanvas(400, 400);
