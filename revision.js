@@ -62,7 +62,7 @@ function setup() {
 
 function draw() {
     background(colourPicker.value());
-    
+    textAlign(LEFT)
     textSize(15);
     text("Enter your name: ", width / 2 - 175, height / 2 + 100);
 
