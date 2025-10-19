@@ -51,7 +51,7 @@ function setup() {
     colourPicker.position(width / 2 - 25, height / 2 + 350);
 
     textBox1 = createInput();
-    textBox1.position(width / 2 - 125, height / 2 + 85);
+    textBox1.position(width / 2 - 50, height / 2 + 85);
     textBox1.input(display1);
 
     textBox2 = createInput();
