@@ -39,7 +39,8 @@
 // }
 
 let colourPicker;
-let User
+let userInput;
+let user
 
 function setup() {
     createCanvas(400, 400);
