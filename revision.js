@@ -51,7 +51,7 @@ function setup() {
 function draw() {
     background(colourPicker.value());
 
-    rect(width / 2, height / 2 - 50,width / 2 + 50,height / 2 - 50,50);
+    rect(width , height / 2 - 50,width / 2 + 50,height / 2 - 50,50);
 
 
 }
