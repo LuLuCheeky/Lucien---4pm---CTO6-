@@ -44,7 +44,7 @@ function setup() {
     createCanvas(400, 400);
     
     colourPicker = createColorPicker('orange');
-    colourPicker.position(width / 2, height /2);
+    colourPicker.position(width / 2, height);
 
 }
 
