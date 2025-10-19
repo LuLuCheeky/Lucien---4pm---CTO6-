@@ -44,14 +44,14 @@ function setup() {
     createCanvas(400, 400);
     
     colourPicker = createColorPicker('yellow');
-    colourPicker.position(width / 2 - 50, height / 2);
+    colourPicker.position(width / 2 - 25, height / 2);
 
 }
 
 function draw() {
     background(colourPicker.value());
 
-    rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,50);
+    rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
 
 
 }
