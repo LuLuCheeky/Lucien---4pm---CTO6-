@@ -40,7 +40,8 @@
 
 let colourPicker;
 let textBox1;
-
+let textBox2;
+let text1;
 
 function setup() {
     createCanvas(400, 400);
