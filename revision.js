@@ -50,8 +50,9 @@ function setup() {
 
 function draw() {
     background(colourPicker.value());
-
-    Text()
+    
+    textSize(24);
+    text()
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
 
