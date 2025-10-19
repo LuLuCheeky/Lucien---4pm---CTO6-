@@ -55,7 +55,7 @@ function setup() {
     textBox1.input(display1);
 
     textBox2 = createInput();
-    textBox2.position(width / 2 + 25, height / 2 + 75);
+    textBox2.position(width / 2 - 200, height / 2 + 100);
     textBox2.input(display2);
 
 }
