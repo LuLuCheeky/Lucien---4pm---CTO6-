@@ -55,7 +55,7 @@ function setup() {
     textBox1.input(display1);
 
     textBox2 = createInput();
-    textBox2.position(width / 2 -50, height / 2 + 120);
+    textBox2.position(width / 2 -50, height / 2 + 130);
     textBox2.input(display2);
 
 }
@@ -65,7 +65,7 @@ function draw() {
     textAlign(LEFT);
     textSize(15);
     text("Enter your name: ", width / 2 - 175, height / 2 + 100);
-    text("Enter your age: ", width / 2 - 175, height / 2 + 120);
+    text("Enter your age: ", width / 2 - 175, height / 2 + 150);
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
     text(text1, width / 2 , height / 150);
