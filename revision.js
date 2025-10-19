@@ -60,6 +60,7 @@ function draw() {
     text("Enter your name: ", width / 2 - 175, height / 2 + 100);
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
+    text(userText, width / 2 - 50, height / 2 - 50);
 
 
 }
