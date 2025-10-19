@@ -70,7 +70,7 @@ function draw() {
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
     textSize(25);
     text(text1, width / 2 - 50 , height / 2 - 50);
-    text(text2, width / 2 - 50 , height / 200);
+    text(text2, width / 2 - 50 , height / 2 - 30);
 
     
 
