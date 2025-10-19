@@ -49,9 +49,9 @@ function setup() {
     
     colourPicker = createColorPicker('yellow');
     colourPicker.position(width / 2 - 25, height / 2 + 350);
-    userInput = createInput();
-    userInput.position(width / 2 - 50, height / 2 + 280);
-    userInput.input(userInputUp);
+
+    textBox1 = createInput();
+    
 
 }
 
