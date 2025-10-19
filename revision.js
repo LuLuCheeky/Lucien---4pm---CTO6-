@@ -65,6 +65,7 @@ function draw() {
     textAlign(LEFT);
     textSize(15);
     text("Enter your name: ", width / 2 - 175, height / 2 + 100);
+    text("Enter your age: ", width / 2 - 100, height / 2 + 120);
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
     text(text1, width / 2 , height / 150);
