@@ -74,6 +74,10 @@ function draw() {
 
 }
 
-function userInputUp() {
-    userText = this.text();
+function display1() {
+    text1 = this.value();
+}
+
+function display2() {
+    text2 = this.value();
 }
