@@ -68,7 +68,7 @@ function draw() {
 
     rect(width / 2 - 125, height / 2 - 100,width / 2 + 50,height / 2 - 50,25 );
     text(text1, width / 2 , height / 150);
-    text
+    text(text2, width / 2 , height / 200);
 
     
 
