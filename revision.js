@@ -23,17 +23,17 @@
 //     x = constrain(x, 25, width - 25);
 // }
 
-let food = ["pizza", "burger", "fries", "salad"];
+// let food = ["pizza", "burger", "fries", "salad"];
 
-function setup() {
-    createCanvas(400, 400);
-    background(220);
-    textSize(100);
-    textAlign(CENTER, CENTER);
-}
+// function setup() {
+//     createCanvas(400, 400);
+//     background(220);
+//     textSize(100);
+//     textAlign(CENTER, CENTER);
+// }
 
-function draw() {
-    for (let i = 0; i < food.length; i++) {
-        text(food[i], width / 2, 50 + i * 40);
-    }
-}
+// function draw() {
+//     for (let i = 0; i < food.length; i++) {
+//         text(food[i], width / 2, 50 + i * 40);
+//     }
+// }
