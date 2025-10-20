@@ -1,26 +1,26 @@
-// let storyText = [
-//     "A long time ago in a galaxy far,",
-//     "far away...",
-//     "",
-//     "EPISODE I",
-//     "THE BEGINNING",
-//     "",
-//     "It is a period of learning...",
-//     "Students have begun their journey",
-//     "into the world of p5.js.",
-//     "With newfound powers, they",
-//     "create amazing visuals and",
-//     "animations...",
-//     "",
-//     "May the Code be with you!"
-// ];
+let storyText = [
+    "A long time ago in a galaxy far,",
+    "far away...",
+    "",
+    "EPISODE I",
+    "THE BEGINNING",
+    "",
+    "It is a period of learning...",
+    "Students have begun their journey",
+    "into the world of p5.js.",
+    "With newfound powers, they",
+    "create amazing visuals and",
+    "animations...",
+    "",
+    "May the Code be with you!"
+];
 
-// let bgMusic;
+let bgMusic;
 
 
-// function preload() {
-//     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
-// }
+function preload() {
+    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
+}
 
 // let yPos;
 // function setup() {
