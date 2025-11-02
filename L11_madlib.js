@@ -4,6 +4,7 @@ let words = ["noun", "verb", "adjective", "adverb", "place"];
 let displayText1, displayText2, displayText3, displayText4, displayText5;
 let arr2 = [];
 let story = "";
+let storyText;
 
 function setup() {
     createCanvas(600,600);
