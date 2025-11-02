@@ -23,6 +23,6 @@ function draw() {
 
     for(let i = 0; i < words.length; i++){
         textSize(20);
-        text(words[i], 50, 100 + i * 40);
+        text(words[i], 50, 100 + i * 45);
     }
 }
