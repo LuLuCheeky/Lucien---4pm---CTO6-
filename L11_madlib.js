@@ -1,5 +1,8 @@
 let box1, box2, box3, box4, box5;
 
+let words = [ ]
+
+
 function setup() {
     createCanvas(600,600);
 
