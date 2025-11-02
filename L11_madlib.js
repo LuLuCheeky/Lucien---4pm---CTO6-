@@ -1,60 +1,122 @@
+// let box1, box2, box3, box4, box5;
+// let button;
+// let words = ["noun", "verb", "adjective", "adverb", "place"];
+// let displayText1, displayText2, displayText3, displayText4, displayText5;
+// let arr2 = [];
+// let story = "";
+// let storyText;
+
+// function setup() {
+//     createCanvas(600,600);
+
+//     box1 = createInput();
+//     box1.position(width / 2 - box1.width / 2, 100);
+//     box2 = createInput();
+//     box2.position(width / 2 - box2.width / 2, 140);
+//     box3 = createInput();
+//     box3.position(width / 2 - box3.width / 2, 180);
+//     box4 = createInput();
+//     box4.position(width / 2 - box4.width / 2, 220);
+//     box5 = createInput();
+//     box5.position(width / 2 - box5.width / 2, 260);
+
+//     button = createButton("Generate story");
+//     button.position(width / 2 - button.width / 2, 350);
+//     button.mousePressed(display);
+
+//     storyTemplates = [
+//         "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+//         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+//         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+//     ];
+// }
+
+// function draw() {
+//     background(220);
+
+//     for(let i = 0; i < words.length; i++){
+//         textSize(20);
+//         text(words[i], 50, 115 + i * 40);
+//     }
+
+//     for(let i = 0; i< arr2.length; i++){
+//         textSize(20);
+//         text(arr2[i], 50, 400 + i * 35);
+//     }
+
+//     textAlign(CENTER, CENTER);
+//     text(storyText, width / 2, 400);
+// }
+
+// function display() {
+
+//     let template = random(storyTemplates);
+
+//     storyText = template.replace("{noun}", box1.value())
+//                         .replace("{verb}", box2.value())
+//                         .replace("{adj}", box3.value())
+//                         .replace("{adv}", box4.value())
+//                         .replace("{place}", box5.value());
+// }
+
+
 let box1, box2, box3, box4, box5;
-let button;
-let words = ["noun", "verb", "adjective", "adverb", "place"];
-let displayText1, displayText2, displayText3, displayText4, displayText5;
-let arr2 = [];
-let story = "";
-let storyText;
+// let button;
+// let words = ["noun", "verb", "adjective", "adverb", "place"];
+// let displayText1, displayText2, displayText3, displayText4, displayText5;
+// let arr2 = [];
+// let story = "";
+// let storyText;
 
-function setup() {
-    createCanvas(600,600);
+// function setup() {
+//     createCanvas(600,600);
 
-    box1 = createInput();
-    box1.position(width / 2 - box1.width / 2, 100);
-    box2 = createInput();
-    box2.position(width / 2 - box2.width / 2, 140);
-    box3 = createInput();
-    box3.position(width / 2 - box3.width / 2, 180);
-    box4 = createInput();
-    box4.position(width / 2 - box4.width / 2, 220);
-    box5 = createInput();
-    box5.position(width / 2 - box5.width / 2, 260);
+//     box1 = createInput();
+//     box1.position(width / 2 - box1.width / 2, 100);
+//     box2 = createInput();
+//     box2.position(width / 2 - box2.width / 2, 140);
+//     box3 = createInput();
+//     box3.position(width / 2 - box3.width / 2, 180);
+//     box4 = createInput();
+//     box4.position(width / 2 - box4.width / 2, 220);
+//     box5 = createInput();
+//     box5.position(width / 2 - box5.width / 2, 260);
 
-    button = createButton("Generate story");
-    button.position(width / 2 - button.width / 2, 350);
-    button.mousePressed(display);
+//     button = createButton("Generate story");
+//     button.position(width / 2 - button.width / 2, 350);
+//     button.mousePressed(display);
 
-    storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
-    ];
-}
+//     storyTemplates = [
+//         "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+//         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+//         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+//     ];
+// }
 
-function draw() {
-    background(220);
+// function draw() {
+//     background(220);
 
-    for(let i = 0; i < words.length; i++){
-        textSize(20);
-        text(words[i], 50, 115 + i * 40);
-    }
+//     for(let i = 0; i < words.length; i++){
+//         textSize(20);
+//         text(words[i], 50, 115 + i * 40);
+//     }
 
-    for(let i = 0; i< arr2.length; i++){
-        textSize(20);
-        text(arr2[i], 50, 400 + i * 35);
-    }
+//     for(let i = 0; i< arr2.length; i++){
+//         textSize(20);
+//         text(arr2[i], 50, 400 + i * 35);
+//     }
 
-    textAlign(CENTER, CENTER);
-    text(storyText, width / 2, 400);
-}
+//     textAlign(CENTER, CENTER);
+//     text(storyText, width / 2, 400);
+// }
 
-function display() {
+// function display() {
 
-    let template = random(storyTemplates);
+//     let template = random(storyTemplates);
 
-    storyText = template.replace("{noun}", box1.value())
-                        .replace("{verb}", box2.value())
-                        .replace("{adj}", box3.value())
-                        .replace("{adv}", box4.value())
-                        .replace("{place}", box5.value());
-}
+//     storyText = template.replace("{noun}", box1.value())
+//                         .replace("{verb}", box2.value())
+//                         .replace("{adj}", box3.value())
+//                         .replace("{adv}", box4.value())
+//                         .replace("{place}", box5.value());
+// }
