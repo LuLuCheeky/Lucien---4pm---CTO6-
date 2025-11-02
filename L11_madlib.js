@@ -4,7 +4,6 @@ let words = ["noun", "verb", "adjective", "adverb", "place"];
 let displayText1, displayText2, displayText3, displayText4, displayText5;
 let arr2 = [];
 let story = "";
-let storyTemplate = []
 
 function setup() {
     createCanvas(600,600);
@@ -24,7 +23,7 @@ function setup() {
     button.position(width / 2 - button.width / 2, 350);
     button.mousePressed(display);
 
-        storyTemplates = [
+    storyTemplates = [
         "The {adj} {noun} decided to {verb} {adv} at the {place}.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
