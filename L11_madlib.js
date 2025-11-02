@@ -12,7 +12,7 @@ function setup() {
     box4 = createInput();
     box4.position(width / 2 - box4.width / 2, 220);
     box5 = createInput();
-    box5.position(width / 2 - box, 260);
+    box5.position(width / 2 - boxwidth / 2, 260);
 }
 
 function draw() {
