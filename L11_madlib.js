@@ -23,6 +23,12 @@ function setup() {
     button = createButton("Generate story");
     button.position(width / 2 - button.width / 2, 350);
     button.mousePressed(display);
+
+        storyTemplates = [
+        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+    ];
 }
 
 function draw() {
