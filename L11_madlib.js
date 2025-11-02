@@ -1,7 +1,7 @@
 let box1, box2, box3, box4, box5;
 let button;
 let words = ["noun", "verb", "adjective", "adverb", "place"];
-
+let displayText1, displayText2, displayText3, displayText4, displayText5;
 
 function setup() {
     createCanvas(600,600);
