@@ -10,9 +10,9 @@ function setup() {
     box3 = createInput();
     box3.position(width / 2 - box3.width / 2, 180);
     box4 = createInput();
-    box4.position(width / 2 - box1.width / 2, 220);
+    box4.position(width / 2 - box4.width / 2, 220);
     box5 = createInput();
-    box5.position(width / 2, 260);
+    box5.position(width / 2 - box, 260);
 }
 
 function draw() {
