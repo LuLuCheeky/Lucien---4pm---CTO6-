@@ -58,5 +58,9 @@ function display() {
 
     let template = random(storyTemplates);
 
-    storyText = template.replace
+    storyText = template.replace("{noun}", box1.value())
+                        .replace("{verb}", box2.value())
+                        .replace("{adj}", box3.value())
+                        .replace("{adv}", box4.value())
+                        .replace("{place}", box5.value());
 }
