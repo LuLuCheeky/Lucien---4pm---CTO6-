@@ -1,6 +1,6 @@
 let box1, box2, box3, box4, box5;
 
-let words = [noun, verb, adjective, adverb, place];
+let words = ["noun", "verb", "adjective", "adverb", "place"];
 
 
 function setup() {
