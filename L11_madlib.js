@@ -18,7 +18,8 @@ function setup() {
     box5.position(width / 2 - box5.width / 2, 260);
 
     button = createButton("Generate story");
-    button
+    button.position(width / 2 - button.width / 2, 350);
+    butto
 }
 
 function draw() {
