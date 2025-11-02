@@ -33,6 +33,7 @@ function draw() {
 
 function display() {
     displayText1 = box1.value();
+    arr2
     displayText2 = box2.value();
     displayText3 = box3.value();
     displayText4 = box4.value();
