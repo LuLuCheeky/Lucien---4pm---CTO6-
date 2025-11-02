@@ -30,6 +30,11 @@ function draw() {
         textSize(20);
         text(words[i], 50, 115 + i * 40);
     }
+
+    for(let i = 0; i< arr2.length; i++){
+        textSize(20);
+        text(arr2[i], 50, 115 + i * 40);
+    }
 }
 
 function display() {
