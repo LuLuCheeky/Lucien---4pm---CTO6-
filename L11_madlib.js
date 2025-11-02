@@ -33,7 +33,7 @@ function draw() {
 
     for(let i = 0; i< arr2.length; i++){
         textSize(20);
-        text(arr2[i], 50, 500 + i * 50);
+        text(arr2[i], 50, 400 + i * 50);
     }
 }
 
