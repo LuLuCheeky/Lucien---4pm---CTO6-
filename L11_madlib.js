@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600,600);
 
     box1 = createInput();
-    
+    text
     box2 = createInput();
     box3 = createInput();
     box4 = createInput();
