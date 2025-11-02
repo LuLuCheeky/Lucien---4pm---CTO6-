@@ -1,5 +1,5 @@
 let box1, box2, box3, box4, box5;
-
+let button;
 let words = ["noun", "verb", "adjective", "adverb", "place"];
 
 
