@@ -43,7 +43,8 @@ function draw() {
         text(arr2[i], 50, 400 + i * 35);
     }
 
-    textAlign(CENTER);
+    textAlign(CENTER, CENTER);
+    text
 }
 
 function display() {
