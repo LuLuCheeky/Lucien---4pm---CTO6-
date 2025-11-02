@@ -19,7 +19,7 @@ function setup() {
 
     button = createButton("Generate story");
     button.position(width / 2 - button.width / 2, 350);
-    butto
+    button.mousePresseed(dis)
 }
 
 function draw() {
