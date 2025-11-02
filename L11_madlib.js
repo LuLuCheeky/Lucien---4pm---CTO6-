@@ -55,4 +55,6 @@ function display() {
     arr2.push(displayText4);
     displayText5 = "place: " +box5.value();
     arr2.push(displayText5);
+
+    let template
 }
