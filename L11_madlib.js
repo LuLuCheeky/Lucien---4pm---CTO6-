@@ -37,3 +37,4 @@ function display() {
     displayText3 = box3.value();
     displayText4 = box4.value();
     displayText5 = box5.value();
+}
