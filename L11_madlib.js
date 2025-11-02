@@ -2,6 +2,7 @@ let box1, box2, box3, box4, box5;
 let button;
 let words = ["noun", "verb", "adjective", "adverb", "place"];
 let displayText1, displayText2, displayText3, displayText4, displayText5;
+let arr2 = [];
 
 function setup() {
     createCanvas(600,600);
@@ -33,7 +34,7 @@ function draw() {
 
 function display() {
     displayText1 = box1.value();
-    arr2
+    arr2.push
     displayText2 = box2.value();
     displayText3 = box3.value();
     displayText4 = box4.value();
