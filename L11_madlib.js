@@ -38,7 +38,7 @@ function draw() {
 }
 
 function display() {
-    displayText1 = box1.value();
+    displayText1 = "noun:box1.value();
     arr2.push(displayText1);
     displayText2 = box2.value();
     arr2.push(displayText2);
