@@ -42,6 +42,8 @@ function draw() {
         textSize(20);
         text(arr2[i], 50, 400 + i * 35);
     }
+
+    textAlign(CENTER);
 }
 
 function display() {
