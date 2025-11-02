@@ -38,9 +38,9 @@ function draw() {
 }
 
 function display() {
-    displayText1 = "noun:box1.value();
+    displayText1 = "noun: " + box1.value();
     arr2.push(displayText1);
-    displayText2 = box2.value();
+    displayText2 =  "verb" + box2.value();
     arr2.push(displayText2);
     displayText3 = box3.value();
     arr2.push(displayText3);
