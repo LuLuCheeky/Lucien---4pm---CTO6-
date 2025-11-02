@@ -44,7 +44,7 @@ function draw() {
     }
 
     textAlign(CENTER, CENTER);
-    text(story)
+    text(storyText, width / 2, 400);
 }
 
 function display() {
