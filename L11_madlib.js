@@ -17,7 +17,8 @@ function setup() {
     box5 = createInput();
     box5.position(width / 2 - box5.width / 2, 260);
 
-    button = createButton("Submit");
+    button = createButton("Generate story");
+    button
 }
 
 function draw() {
