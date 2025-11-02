@@ -58,5 +58,5 @@ function display() {
 
     let template = random(storyTemplates);
 
-    storyText
+    storyText = template.replace
 }
