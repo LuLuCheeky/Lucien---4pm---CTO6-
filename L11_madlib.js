@@ -40,12 +40,12 @@ function draw() {
 function display() {
     displayText1 = "noun: " + box1.value();
     arr2.push(displayText1);
-    displayText2 =  "verb" + box2.value();
+    displayText2 =  "verb: " + box2.value();
     arr2.push(displayText2);
-    displayText3 = "adjetive:" + box3.value();
+    displayText3 = "adjetive: " + box3.value();
     arr2.push(displayText3);
-    displayText4 = "adverb: " +box4.value();
+    displayText4 = "adverb: " + box4.value();
     arr2.push(displayText4);
-    displayText5 = box5.value();
+    displayText5 = "place: " +box5.value();
     arr2.push(displayText5);
 }
