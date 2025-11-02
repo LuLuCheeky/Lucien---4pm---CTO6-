@@ -56,5 +56,5 @@ function display() {
     displayText5 = "place: " +box5.value();
     arr2.push(displayText5);
 
-    let template
+    let template = random
 }
