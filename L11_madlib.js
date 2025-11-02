@@ -20,6 +20,8 @@ function setup() {
 
 function draw() {
     background(220);
-    
 
+    for(let i = 0; i < words.length; i++){
+        text(words[i], 50, 100 + 15 + i * 50);
+    }
 }
