@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600,600);
 
     box1 = createInput();
-    box1
+    box1.position(width / 2, 100);
     box2 = createInput();
     box3 = createInput();
     box4 = createInput();
