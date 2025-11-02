@@ -30,3 +30,10 @@ function draw() {
         text(words[i], 50, 115 + i * 40);
     }
 }
+
+function display() {
+    displayText1 = box1.value();
+    displayText2 = box2.value();
+    displayText3 = box3.value();
+    displayText4 = box4.value();
+    displayText5 = box5.value();
