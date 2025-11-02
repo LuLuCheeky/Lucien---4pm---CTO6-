@@ -6,9 +6,9 @@ function setup() {
     box1 = createInput();
     box1.position(width / 2 - box1.width / 2, 100);
     box2 = createInput();
-    box2.position(width / 2 - , 140);
+    box2.position(width / 2 - box2.width / 2, 140);
     box3 = createInput();
-    box3.position(width / 2, 180);
+    box3.position(width / 2 - , 180);
     box4 = createInput();
     box4.position(width / 2, 220);
     box5 = createInput();
