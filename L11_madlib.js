@@ -4,6 +4,11 @@ function setup() {
     createCanvas(600,600);
 
     box1 = createInput();
+    
+    box2 = createInput();
+    box3 = createInput();
+    box4 = createInput();
+    box5 = createInput();
 }
 
 function draw() {
