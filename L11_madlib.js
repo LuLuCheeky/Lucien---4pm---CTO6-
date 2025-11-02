@@ -42,7 +42,7 @@ function display() {
     arr2.push(displayText1);
     displayText2 =  "verb" + box2.value();
     arr2.push(displayText2);
-    displayText3 = box3.value();
+    displayText3 = "adjetive:" + box3.value();
     arr2.push(displayText3);
     displayText4 = box4.value();
     arr2.push(displayText4);
