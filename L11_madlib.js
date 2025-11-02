@@ -16,6 +16,8 @@ function setup() {
     box4.position(width / 2 - box4.width / 2, 220);
     box5 = createInput();
     box5.position(width / 2 - box5.width / 2, 260);
+
+    button = createButton("Submit");
 }
 
 function draw() {
