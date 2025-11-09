@@ -1,4 +1,5 @@
 let attempts = 0;
+let hiddenWord
 
 function setup() {
     createCanvas(600,600);
