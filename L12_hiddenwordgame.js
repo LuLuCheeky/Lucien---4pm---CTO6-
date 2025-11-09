@@ -10,7 +10,7 @@ function setup() {
     createCanvas(600,400);
 
     hiddenWord = random(words);
-    hint = hiddenWord[0].toUpperCase() + " " + "_".repeat(hiddenWord.length - 1);
+    hint = hiddenWord[0].toUpperCase() + " " + "_ ".repeat(hiddenWord.length - 1);
 
     textBox = createInput();
     textBox.position(width / 2 - textBox.width / 2, 200);
