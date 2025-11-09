@@ -1,5 +1,6 @@
 let attempts = 0;
-let hiddenWord
+let hiddenWord = "";
+
 
 function setup() {
     createCanvas(600,600);
