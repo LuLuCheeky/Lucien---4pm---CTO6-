@@ -3,9 +3,14 @@ let hiddenWord = "";
 let textBox;
 let button;
 let disText = "";
+let words = ["apple", "grape", "peach", "mango", "berry", "melon", "cherry", "guava"];
 
 function setup() {
     createCanvas(600,400);
+
+    hiddenWord = random(words);
+    hint = hiddenWord[0].toUpperCase() + " " + "_".repeat(hiddenWord.length - 1);
+
     textBox = createInput();
     textBox.position(width / 2 - textBox.width / 2, 200);
     textBox.size(150, 30);
@@ -14,7 +19,7 @@ function setup() {
     button = createButton("Submit Guess");
     button.position(textBox.x + textBox.width + 30, 200);
     button.size(100, 30);
-    button.mousePressed(display);
+    button.mousePressed(checkGuess);
 }
 
 function draw() {
@@ -28,6 +33,6 @@ function draw() {
     text(disText, width / 2, 250);
 }
 
-function display() {
-    disText = textBox.value();
+function checkGuess() {
+    attempts++;
 }
