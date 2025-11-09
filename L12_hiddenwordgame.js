@@ -39,6 +39,16 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value();
-    message = getCorrectLetter
+    message = getCorrectLetters(guess, hiddenWord);
 
+}
+
+function getCorrectLetters(guess, hiddenWord) {
+    let correctLetter = "";
+
+    for(let i = 0; i < hiddenWord.length; i++) {
+        if(hiddenWord.includes(guess[i])) {
+            correctLetter += guess[i].toUpperCase();
+        }
+    }
 }
