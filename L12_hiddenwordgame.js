@@ -42,10 +42,10 @@ function checkGuess() {
     message = getCorrectLetters(guess, hiddenWord);
 
     if (guess == hiddenWord) {
-        disText = "Congratulations! You've guessed the word: " + hiddenWord.toUpperCase();
+        message = "Congratulations! You've guessed the word: " + hiddenWord.toUpperCase();
         noLoop();
-    } else if (guess{
-        disText = "Correct Letters: " + message;
+    } else if (guess.length != 5) {
+        message = "Correct Letters: " + message;
     }
 
 }
