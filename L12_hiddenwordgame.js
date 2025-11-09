@@ -19,7 +19,7 @@ function draw() {
     textSize(24);
     text("Guess the Hidden Word!", width / 2, 50);
     text("Attempts: " + attempts, width / 2, 100);
-    text("Hints: " + hiddwnWord, width / 2, 150);
+    text("Hints: " + hiddenWord, width / 2, 150);
     text(disText, width / 2, 250);
 }
 
