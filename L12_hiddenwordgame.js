@@ -41,6 +41,11 @@ function checkGuess() {
     let guess = textBox.value();
     message = getCorrectLetters(guess, hiddenWord);
 
+    if (guess == hiddenWord) {
+        disText = "Congratulations! You've guessed the word: " + hiddenWord.toUpperCase();
+        noLoop();
+    }
+
 }
 
 function getCorrectLetters(guess, hiddenWord) {
