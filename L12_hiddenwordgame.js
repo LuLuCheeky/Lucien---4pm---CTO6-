@@ -8,6 +8,8 @@ function setup() {
     createCanvas(600,400);
     textBox = createInput();
     textBox.position(width / 2 - textBox.width / 2, 200);
+    textBox.size
+
     button = createButton("Submit Guess");
     button.position(textBox.x + textBox.width + 30, 200);
     button.mousePressed(display);
