@@ -6,9 +6,9 @@ let button;
 function setup() {
     createCanvas(600,600);
     textBox = createInput();
-    textBox.position(200, 300);
+    textBox.position();
     button = createButton("Submit Guess");
-    button.position(textBox.x +textBox.width, 300);
+    button.position(textBox.x +textBox.width, 300, 200);
 }
 
 function draw() {
