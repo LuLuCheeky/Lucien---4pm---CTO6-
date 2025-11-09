@@ -12,6 +12,7 @@ function setup() {
 
     button = createButton("Submit Guess");
     button.position(textBox.x + textBox.width + 30, 200);
+    button.size(100, 30);
     button.mousePressed(display);
 }
 
