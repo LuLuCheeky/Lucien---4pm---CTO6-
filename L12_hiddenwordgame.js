@@ -9,7 +9,7 @@ function setup() {
     textBox = createInput();
     textBox.position(width / 2 - textBox.width / 2, 200);
     textBox.size(150, 30);
-    textBox.style()
+    textBox.style('font-size', '16px');
 
     button = createButton("Submit Guess");
     button.position(textBox.x + textBox.width + 30, 200);
