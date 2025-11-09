@@ -37,4 +37,6 @@ function draw() {
 
 function checkGuess() {
     attempts++;
+
+    let guess = text
 }
