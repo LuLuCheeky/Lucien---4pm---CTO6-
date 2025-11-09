@@ -39,6 +39,6 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value();
-    message
+    message = getCorrectLetter
 
 }
