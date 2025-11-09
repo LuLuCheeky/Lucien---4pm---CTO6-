@@ -9,7 +9,7 @@ function setup() {
     textBox.position(width / 2 - textBox.width / 2, 200);
     button = createButton("Submit Guess");
     button.position(textBox.x + textBox.width + 30, 200);
-    button.mousePressed(checkGuess);
+    button.mousePressed(display);
 }
 
 function draw() {
@@ -21,3 +21,6 @@ function draw() {
     text("Attempts: " + attempts, width / 2, 100);
     text("Hints: " + hiddwnWord, width / 2, 150);
 }
+
+function display() {
+    disText = t
