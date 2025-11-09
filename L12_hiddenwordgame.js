@@ -44,6 +44,8 @@ function checkGuess() {
     if (guess == hiddenWord) {
         disText = "Congratulations! You've guessed the word: " + hiddenWord.toUpperCase();
         noLoop();
+    } else if (guess{
+        disText = "Correct Letters: " + message;
     }
 
 }
