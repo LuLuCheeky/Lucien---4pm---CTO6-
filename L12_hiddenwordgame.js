@@ -43,7 +43,7 @@ function checkGuess() {
     if (guess == hiddenWord) {
         message = "Congratulations! You've guessed the word: " + hiddenWord.toUpperCase();
     } else if (guess.length != 5) {
-        message = "Correct Letters: " + message;
+        message = "Please enter a 5-letter word.";
     }
     else {
         message = "Correct Letters: " + message;
